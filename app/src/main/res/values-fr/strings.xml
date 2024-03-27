@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Direction de la Qibla</string>
+    <string name="compass">Boussole</string>
+    <string name="location">Emplacement</string>
+    <string name="settings">Paramètres</string>
+    <string name="templates">Modèles</string>
+    <string name="hello_blank_fragment">Bonjour fragment vide</string>
+    <string name="premium">Premium</string>
+    <string name="compass_dial" translatable="false">Cadran de la boussole</string>
+    <string name="compass_hands" translatable="false">Aiguilles de la boussole</string>
+    <string name="sotw_north">N</string>
+    <string name="sotw_east">E</string>
+    <string name="sotw_south">S</string>
+    <string name="sotw_west">O</string>
+    <string name="sotw_northeast">NE</string>
+    <string name="sotw_northwest">NO</string>
+    <string name="sotw_southeast">SE</string>
+    <string name="sotw_southwest">SO</string>
+    <string name="this_action_may_contain_ads">Cette action peut contenir des annonces</string>
+    <string name="next">Suivant</string>
+    <string name="done">Terminé</string>
+    <string name="qibla_compass">Boussole Qibla</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">La boussole Qibla est une application de boussole précise pour les appareils Android. Utilisez l\'application la plus à jour et avancée pour votre routine quotidienne.</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">La boussole est une application de boussole précise pour les appareils Android. Utilisez l\'application la plus à jour et avancée pour votre routine quotidienne.</string>
+    <string name="please_select_a_language">Veuillez sélectionner une langue</string>
+    <string name="ad_loading">Chargement de l\'annonce</string>
+    <string name="ad_is_loading">L\'annonce se charge</string>
+    <string name="compass_design">Conception de la boussole</string>
+    <string name="qibla_direction">Angle de la Qibla : </string>
+    <string name="map_location">Emplacement sur la carte</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="setting">Réglage</string>
+    <string name="dark_theme">Thème sombre</string>
+    <string name="language">Langue</string>
+    <string name="how_to_use">Comment utiliser</string>
+    <string name="share_app">Partager l\'application</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="rate_app">Évaluer l\'application</string>
+    <string name="more_app">Plus d\'applications</string>
+    <string name="terms_and_conditions">Conditions générales </string>
+    <string name="get_premium">Obtenir Premium</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">Autorisez la boussole Qibla à accéder à l\'emplacement de l\'appareil. Vous pouvez modifier les autorisations à tout moment.</string>
+    <string name="allow">Autoriser</string>
+    <string name="don_t_allow">Ne pas autoriser</string>
+    <string name="qibla">Qibla</string>
+    <string name="lifetime_purchase">Achat à vie</string>
+    <string name="lifetime">À vie</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">sera déduit une fois et vous pourrez profiter d\'une version gratuite de l\'application.</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">Impossible de récupérer l\'emplacement. Veuillez vous assurer que les services de localisation sont activés.</string>
+    <string name="location_not_found">Emplacement non trouvé</string>
+    <string name="location_permission_denied_cannot_retrieve_location">Autorisation de localisation refusée. Impossible de récupérer l\'emplacement.</string>
+    <string name="location_permission_denied_cannot_proceed">Autorisation de localisation refusée. Impossible de continuer.</string>
+</resources>
+

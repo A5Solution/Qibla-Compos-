@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KiblaDirection" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/appColor</item>
+        <item name="colorPrimaryDark">@color/appColor</item>
+        <item name="colorAccent">@color/appColor</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+    <style name="ScreenBackground"><item name="android:background">@color/white</item></style>
+    <style name="TextColor"><item name="android:textColor">@color/black</item></style>
+    <style name="TextColorApp"><item name="android:textColor">@color/appColor</item></style>
+    <style name="HeaderTextColor"><item name="android:textColor">@color/appColor</item></style>
+    <style name="TextColorBlack"><item name="android:textColor">@color/black</item></style>
+    <style name="CardBackground"><item name="android:background">@color/appColor</item></style>
+    <style name="ImageColor"><item name="android:tint">@color/appColor</item></style>
+    <style name="ImageColorRed"><item name="android:tint">@color/red</item></style>
+    <style name="ImageColorApp"><item name="android:tint">@color/appColor</item></style>
+    <style name="ImageColorMain"><item name="android:tint">@color/black</item></style>
+    <style name="MainCardColor"><item name="android:background">@drawable/curved_border_background_appcolor</item></style>
+    <style name="InAppBanner"><item name="android:background">@drawable/curved_border_background_appcolor_inapp</item></style>
+    <style name="curved_border_background"><item name="android:background">@drawable/curved_border_background</item></style>
+    <style name="card_curved_border_background"><item name="android:background">@drawable/card_curved_border_background</item></style>
+    <style name="top_curve"><item name="android:background">@drawable/top_curve</item></style>
+    <style name="bottom_curve"><item name="android:background">@drawable/bottom_curve</item></style>
+    <style name="rounded_image_background_blue"><item name="android:background">@drawable/rounded_image_background_blue</item></style>
+    <style name="ic_kibla"><item name="android:src">@drawable/ic_kibla_white</item></style>
+    <style name="locate"><item name="android:src">@drawable/locate</item></style>
+    <style name="in_app_bottom"><item name="android:background">@drawable/in_app_bottom</item></style>
+    <style name="main_compass_outside"><item name="android:src">@drawable/mecca1_dark</item></style>
+    <style name="main_compass"><item name="android:src">@drawable/main_compass_light</item></style>
+    <style name="splash_background"><item name="android:background">@drawable/splash_background</item></style>
+    <style name="Theme.KiblaDirection" parent="Base.Theme.KiblaDirection" />
+    <style name="CustomAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

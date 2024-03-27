@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">기블라 방향</string>
+    <string name="compass">나침반</string>
+    <string name="location">위치</string>
+    <string name="settings">설정</string>
+    <string name="templates">템플릿</string>
+    <string name="hello_blank_fragment">안녕하세요 빈 프래그먼트</string>
+    <string name="premium">프리미엄</string>
+    <string name="compass_dial" translatable="false">나침반 다이얼</string>
+    <string name="compass_hands" translatable="false">나침반 바늘</string>
+    <string name="sotw_north">북</string>
+    <string name="sotw_east">동</string>
+    <string name="sotw_south">남</string>
+    <string name="sotw_west">서</string>
+    <string name="sotw_northeast">북동</string>
+    <string name="sotw_northwest">북서</string>
+    <string name="sotw_southeast">남동</string>
+    <string name="sotw_southwest">남서</string>
+    <string name="this_action_may_contain_ads">이 작업에는 광고가 포함될 수 있습니다</string>
+    <string name="next">다음</string>
+    <string name="done">완료</string>
+    <string name="qibla_compass">기블라 나침반</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">기블라 나침반은 안드로이드 장치용 정확한 나침반 앱입니다. 최신 및 고급 앱을 사용하여 일상 루틴을 수행하세요.</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">나침반은 안드로이드 장치용 정확한 나침반 앱입니다. 최신 및 고급 앱을 사용하여 일상 루틴을 수행하세요.</string>
+    <string name="please_select_a_language">언어를 선택하세요</string>
+    <string name="ad_loading">광고 로드 중</string>
+    <string name="ad_is_loading">광고 로드 중</string>
+    <string name="compass_design">나침반 디자인</string>
+    <string name="qibla_direction">기블라 각도:</string>
+    <string name="map_location">지도 위치</string>
+    <string name="latitude">위도</string>
+    <string name="longitude">경도</string>
+    <string name="setting">설정</string>
+    <string name="dark_theme">다크 테마</string>
+    <string name="language">언어</string>
+    <string name="how_to_use">사용 방법</string>
+    <string name="share_app">앱 공유</string>
+    <string name="privacy_policy">개인 정보 보호 정책</string>
+    <string name="rate_app">앱 평가</string>
+    <string name="more_app">더 많은 앱</string>
+    <string name="terms_and_conditions">약관 </string>
+    <string name="get_premium">프리미엄 가져오기</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">기블라 나침반에 장치 위치 액세스 권한을 허용합니다. 언제든지 권한을 변경할 수 있습니다.</string>
+    <string name="allow">허용</string>
+    <string name="don_t_allow">허용하지 않음</string>
+    <string name="qibla">기블라</string>
+    <string name="lifetime_purchase">평생 구매</string>
+    <string name="lifetime">평생</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">일회성으로 곧 차감되며 무료 버전의 앱을 즐길 수 있습니다.</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">위치를 가져올 수 없습니다. 위치 서비스가 활성화되어 있는지 확인하십시오.</string>
+    <string name="location_not_found">위치를 찾을 수 없음</string>
+    <string name="location_permission_denied_cannot_retrieve_location">위치 권한이 거부되었습니다. 위치를 가져올 수 없습니다.</string>
+    <string name="location_permission_denied_cannot_proceed">위치 권한이 거부되었습니다. 진행할 수 없습니다.</string>
+</resources>

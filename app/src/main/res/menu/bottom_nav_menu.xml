@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/compassFragment"
+        android:title="@string/compass"
+        android:icon="@drawable/compass"
+        
+        />
+    <item
+        android:id="@+id/locationFragment"
+        android:title="@string/location"
+        android:icon="@drawable/map"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="@string/settings"
+        android:icon="@drawable/settings"/>
+    <item
+        android:id="@+id/templatesFragment"
+        android:title="@string/language"
+        android:icon="@drawable/ic_select_language"/>
+</menu>

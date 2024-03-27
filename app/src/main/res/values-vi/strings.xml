@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Hướng Qibla</string>
+    <string name="compass">La bàn</string>
+    <string name="location">Vị trí</string>
+    <string name="settings">Cài đặt</string>
+    <string name="templates">Mẫu</string>
+    <string name="hello_blank_fragment">Xin chào, fragment trống</string>
+    <string name="premium">Premium</string>
+    <string name="compass_dial" translatable="false">Vòng tròn la bàn</string>
+    <string name="compass_hands" translatable="false">Kim la bàn</string>
+    <string name="sotw_north">B</string>
+    <string name="sotw_east">Đ</string>
+    <string name="sotw_south">N</string>
+    <string name="sotw_west">T</string>
+    <string name="sotw_northeast">ĐB</string>
+    <string name="sotw_northwest">TB</string>
+    <string name="sotw_southeast">ĐN</string>
+    <string name="sotw_southwest">TN</string>
+    <string name="this_action_may_contain_ads">Hành động này có thể chứa quảng cáo</string>
+    <string name="next">Tiếp</string>
+    <string name="done">Xong</string>
+    <string name="qibla_compass">La bàn Qibla</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">La bàn Qibla là một ứng dụng la bàn chính xác cho các thiết bị Android. Sử dụng ứng dụng mới nhất và tiên tiến nhất cho các hoạt động hàng ngày của bạn.</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">La bàn là một ứng dụng la bàn chính xác cho các thiết bị Android. Sử dụng ứng dụng mới nhất và tiên tiến nhất cho các hoạt động hàng ngày của bạn.</string>
+    <string name="please_select_a_language">Vui lòng chọn ngôn ngữ</string>
+    <string name="ad_loading">Đang tải quảng cáo</string>
+    <string name="ad_is_loading">Quảng cáo đang tải</string>
+    <string name="compass_design">Thiết kế la bàn</string>
+    <string name="qibla_direction">Hướng Qibla:</string>
+    <string name="map_location">Vị trí trên bản đồ</string>
+    <string name="latitude">Vĩ độ</string>
+    <string name="longitude">Kinh độ</string>
+    <string name="setting">Cài đặt</string>
+    <string name="dark_theme">Chủ đề tối</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="how_to_use">Cách sử dụng</string>
+    <string name="share_app">Chia sẻ ứng dụng</string>
+    <string name="privacy_policy">Chính sách bảo mật</string>
+    <string name="rate_app">Đánh giá ứng dụng</string>
+    <string name="more_app">Ứng dụng khác</string>
+    <string name="terms_and_conditions">Điều khoản và điều kiện </string>
+    <string name="get_premium">Nhận Premium</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">Cho phép La bàn Qibla truy cập vị trí thiết bị. Bạn có thể thay đổi quyền bất kỳ lúc nào.</string>
+    <string name="allow">Cho phép</string>
+    <string name="don_t_allow">Không cho phép</string>
+    <string name="qibla">Qibla</string>
+    <string name="lifetime_purchase">Mua trọn đời</string>
+    <string name="lifetime">Trọn đời</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">sẽ được trừ một lần và bạn có thể tận hưởng phiên bản miễn phí của ứng dụng.</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">Không thể truy xuất vị trí. Hãy đảm bảo dịch vụ vị trí đã được kích hoạt.</string>
+    <string name="location_not_found">Không tìm thấy vị trí</string>
+    <string name="location_permission_denied_cannot_retrieve_location">Từ chối quyền vị trí. Không thể truy xuất vị trí.</string>
+    <string name="location_permission_denied_cannot_proceed">Từ chối quyền vị trí. Không thể tiếp tục.</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "464699215162",
+    "project_id": "qibla-compass---3d-compass-app",
+    "storage_bucket": "qibla-compass---3d-compass-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464699215162:android:9475b3debbdcc21c1d5403",
+        "android_client_info": {
+          "package_name": "sparx.qiblacompass.free.find.qibladirection.digital3dcompassapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe_EqHVlDBf4NJklWdm6eXybUA-5llroI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qibla Direction</string>
+    <string name="compass">Brújula</string>
+    <string name="location">Ubicación</string>
+    <string name="settings">Ajustes</string>
+    <string name="templates">Plantillas</string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="premium">Prima</string>
+    <string name="compass_dial" translatable="false">Esfera de brújula</string>
+    <string name="compass_hands" translatable="false">Agujas de brújula</string>
+    <string name="sotw_north">N</string>
+    <string name="sotw_east">E</string>
+    <string name="sotw_south">S</string>
+    <string name="sotw_west">W</string>
+    <string name="sotw_northeast">NE</string>
+    <string name="sotw_northwest">NW</string>
+    <string name="sotw_southeast">SE</string>
+    <string name="sotw_southwest">SW</string>
+    <string name="this_action_may_contain_ads">Esta acción puede contener anuncios</string>
+    <string name="next">Siguiente</string>
+    <string name="done">Hecho</string>
+    <string name="qibla_compass">Brújula Qibla</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">Qibla Compass es una aplicación de brújula precisa para dispositivos Android. Utiliza la aplicación más actualizada y avanzada para tu rutina diaria.</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">La brújula es una aplicación de brújula precisa para dispositivos Android. Utiliza la aplicación más actualizada y avanzada para tu rutina diaria.</string>
+    <string name="please_select_a_language">Por favor, seleccione un idioma</string>
+    <string name="ad_loading">Cargando anuncio</string>
+    <string name="ad_is_loading">El anuncio se está cargando</string>
+    <string name="compass_design">Diseño de brújula</string>
+    <string name="qibla_direction">Ángulo de Qibla: </string>
+    <string name="map_location">Ubicación del mapa</string>
+    <string name="latitude">Latitud</string>
+    <string name="longitude">Longitud</string>
+    <string name="setting">Ajuste</string>
+    <string name="dark_theme">Tema oscuro</string>
+    <string name="language">Idioma</string>
+    <string name="how_to_use">Cómo utilizar</string>
+    <string name="share_app">Compartir App</string>
+    <string name="privacy_policy">Política de Privacidad</string>
+    <string name="rate_app">Calificar App</string>
+    <string name="more_app">Más App</string>
+    <string name="terms_and_conditions">Términos y Condiciones </string>
+    <string name="get_premium">Obtener Premium</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">Permita que Qibla Compass acceda a la ubicación del dispositivo. Puede cambiar los permisos en cualquier momento.</string>
+    <string name="allow">Permitir</string>
+    <string name="don_t_allow">No permitir</string>
+    <string name="qibla">Qibla</string>
+    <string name="lifetime_purchase">Compra de por vida</string>
+    <string name="lifetime">Vida</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">se descontará de una vez y podrás disfrutar de una versión gratuita de la aplicación.</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">No se puede recuperar la ubicación. Por favor, asegúrese de que los servicios de ubicación estén habilitados.</string>
+    <string name="location_not_found">Ubicación no encontrada</string>
+    <string name="location_permission_denied_cannot_retrieve_location">Permiso de ubicación denegado. No se puede recuperar la ubicación.</string>
+    <string name="location_permission_denied_cannot_proceed">Permiso de ubicación denegado. No se puede proceder.</string>
+</resources>

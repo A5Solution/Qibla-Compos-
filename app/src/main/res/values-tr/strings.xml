@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Kıble Yönü</string>
+    <string name="compass">Pusula</string>
+    <string name="location">Konum</string>
+    <string name="settings">Ayarlar</string>
+    <string name="templates">Şablonlar</string>
+    <string name="hello_blank_fragment">Merhaba boş fragman</string>
+    <string name="premium">Premium</string>
+    <string name="compass_dial" translatable="false">Pusula Kadranı</string>
+    <string name="compass_hands" translatable="false">Pusula İğneleri</string>
+    <string name="sotw_north">K</string>
+    <string name="sotw_east">D</string>
+    <string name="sotw_south">G</string>
+    <string name="sotw_west">B</string>
+    <string name="sotw_northeast">KD</string>
+    <string name="sotw_northwest">KB</string>
+    <string name="sotw_southeast">GD</string>
+    <string name="sotw_southwest">GB</string>
+    <string name="this_action_may_contain_ads">Bu eylem reklam içerebilir</string>
+    <string name="next">Sonraki</string>
+    <string name="done">Tamamlandı</string>
+    <string name="qibla_compass">Kıble Pusulası</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">Kıble Pusulası, Android cihazlar için doğru bir pusula uygulamasıdır. Günlük rutininiz için en güncel ve gelişmiş uygulamayı kullanın.</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">Pusula, Android cihazlar için doğru bir pusula uygulamasıdır. Günlük rutininiz için en güncel ve gelişmiş uygulamayı kullanın.</string>
+    <string name="please_select_a_language">Lütfen bir dil seçin</string>
+    <string name="ad_loading">Reklam yükleniyor</string>
+    <string name="ad_is_loading">Reklam yükleniyor</string>
+    <string name="compass_design">Pusula Tasarımı</string>
+    <string name="qibla_direction">Kıble Yönü:</string>
+    <string name="map_location">Harita Konumu</string>
+    <string name="latitude">Enlem</string>
+    <string name="longitude">Boylam</string>
+    <string name="setting">Ayar</string>
+    <string name="dark_theme">Karanlık Tema</string>
+    <string name="language">Dil</string>
+    <string name="how_to_use">Nasıl Kullanılır</string>
+    <string name="share_app">Uygulamayı Paylaş</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="rate_app">Uygulamayı Değerlendir</string>
+    <string name="more_app">Daha Fazla Uygulama</string>
+    <string name="terms_and_conditions">Koşullar ve Şartlar </string>
+    <string name="get_premium">Premium Al</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">Kıble Pusulasına cihaz konumuna erişim izni verilsin. İzinleri istediğiniz zaman değiştirebilirsiniz.</string>
+    <string name="allow">İzin Ver</string>
+    <string name="don_t_allow">İzin Verme</string>
+    <string name="qibla">Kıble</string>
+    <string name="lifetime_purchase">Ömür Boyu Satın Alma</string>
+    <string name="lifetime">Ömür Boyu</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">Bir kerede düşülecek ve ücretsiz uygulama sürümünden faydalanabileceksiniz.</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">Konum alınamıyor. Lütfen konum hizmetlerinin etkin olduğundan emin olun.</string>
+    <string name="location_not_found">Konum bulunamadı</string>
+    <string name="location_permission_denied_cannot_retrieve_location">Konum izni reddedildi. Konum alınamıyor.</string>
+    <string name="location_permission_denied_cannot_proceed">Konum izni reddedildi. İlerleyemiyor.</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Arah Kiblat</string>
+    <string name="compass">Kompas</string>
+    <string name="location">Lokasi</string>
+    <string name="settings">Tetapan</string>
+    <string name="templates">Templat</string>
+    <string name="hello_blank_fragment">Hai fragmen kosong</string>
+    <string name="premium">Premium</string>
+    <string name="compass_dial" translatable="false">Skala Kompas</string>
+    <string name="compass_hands" translatable="false">Jarum Kompas</string>
+    <string name="sotw_north">U</string>
+    <string name="sotw_east">T</string>
+    <string name="sotw_south">S</string>
+    <string name="sotw_west">B</string>
+    <string name="sotw_northeast">UT</string>
+    <string name="sotw_northwest">UB</string>
+    <string name="sotw_southeast">ST</string>
+    <string name="sotw_southwest">SB</string>
+    <string name="this_action_may_contain_ads">Tindakan ini mungkin mengandungi iklan</string>
+    <string name="next">Seterusnya</string>
+    <string name="done">Selesai</string>
+    <string name="qibla_compass">Kompas Kiblat</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">Kompas Kiblat adalah aplikasi kompas yang tepat untuk peranti Android. Gunakan aplikasi yang paling terkini dan canggih untuk rutin harian anda.</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">Kompas adalah aplikasi kompas yang tepat untuk peranti Android. Gunakan aplikasi yang paling terkini dan canggih untuk rutin harian anda.</string>
+    <string name="please_select_a_language">Sila Pilih Bahasa</string>
+    <string name="ad_loading">Memuatkan iklan</string>
+    <string name="ad_is_loading">Iklan sedang dimuatkan</string>
+    <string name="compass_design">Reka Bentuk Kompas</string>
+    <string name="qibla_direction">Arah Kiblat: </string>
+    <string name="map_location">Lokasi Peta</string>
+    <string name="latitude">Latitud</string>
+    <string name="longitude">Longitud</string>
+    <string name="setting">Tetapan</string>
+    <string name="dark_theme">Tema Gelap</string>
+    <string name="language">Bahasa</string>
+    <string name="how_to_use">Cara Penggunaan</string>
+    <string name="share_app">Kongsi Aplikasi</string>
+    <string name="privacy_policy">Dasar Privasi</string>
+    <string name="rate_app">Penilaian Aplikasi</string>
+    <string name="more_app">Lebih Banyak Aplikasi</string>
+    <string name="terms_and_conditions">Terma dan Syarat </string>
+    <string name="get_premium">Dapatkan Premium</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">Benarkan Kompas Kiblat mengakses lokasi peranti. Anda boleh ubah kebenaran pada bila-bila masa.</string>
+    <string name="allow">Benarkan</string>
+    <string name="don_t_allow">Jangan Benarkan</string>
+    <string name="qibla">Kiblat</string>
+    <string name="lifetime_purchase">Pembelian Seumur Hidup</string>
+    <string name="lifetime">Seumur Hidup</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">akan dikurangkan sekali dan anda boleh menikmati versi percuma aplikasi.</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">Tidak dapat mengambil lokasi. Pastikan perkhidmatan lokasi telah diaktifkan.</string>
+    <string name="location_not_found">Lokasi tidak dijumpai</string>
+    <string name="location_permission_denied_cannot_retrieve_location">Permintaan lokasi ditolak. Tidak dapat mengambil lokasi.</string>
+    <string name="location_permission_denied_cannot_proceed">Permintaan lokasi ditolak. Tidak dapat meneruskan.</string>
+</resources>

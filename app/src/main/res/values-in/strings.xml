@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Qibla Direction</string>
+    <string name="compass">Compass</string>
+    <string name="location">Location</string>
+    <string name="settings">Settings</string>
+    <string name="templates">Templates</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="premium">Premium</string>
+    <string name="compass_dial" translatable="false">Compass Dial</string>
+    <string name="compass_hands" translatable="false">Compass Hands</string>
+    <string name="sotw_north">N</string>
+    <string name="sotw_east">E</string>
+    <string name="sotw_south">S</string>
+    <string name="sotw_west">W</string>
+    <string name="sotw_northeast">NE</string>
+    <string name="sotw_northwest">NW</string>
+    <string name="sotw_southeast">SE</string>
+    <string name="sotw_southwest">SW</string>
+    <string name="this_action_may_contain_ads">This action may contain ads</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="qibla_compass">Qibla Compass</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">Qibla Compass is an accurate compass app for android devices. Use the most up-to-date and advanced app for your day to day routine.</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">Compass is an accurate compass app for android devices. Use the most up-to-date and advanced app for your day to day routine.</string>
+    <string name="please_select_a_language">Please Select a language</string>
+    <string name="ad_loading">ad_loading</string>
+    <string name="ad_is_loading">ad_is_loading</string>
+    <string name="compass_design">Compass Design</string>
+    <string name="qibla_direction">Qibla Angle : </string>
+    <string name="map_location">Map Location</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="setting">Setting</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="language">Language</string>
+    <string name="how_to_use">How To Use</string>
+    <string name="share_app">Share App</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="rate_app">Rate App</string>
+    <string name="more_app">More App</string>
+    <string name="terms_and_conditions">Terms And Conditions </string>
+    <string name="get_premium">Get Premium</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">Allow Qibla Compass to access device location. You can change permissions at any time.</string>
+    <string name="allow">Izinkan</string>
+    <string name="don_t_allow">Don\'t Allow</string>
+    <string name="qibla">Kiblat</string>
+    <string name="lifetime_purchase">Pembelian Seumur Hidup</string>
+    <string name="lifetime">Seumur Hidup</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">akan dipotong sekali dan Anda dapat menikmati versi gratis aplikasi.</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">Tidak dapat mengambil lokasi. Pastikan layanan lokasi diaktifkan.</string>
+    <string name="location_not_found">Lokasi tidak ditemukan</string>
+    <string name="location_permission_denied_cannot_retrieve_location">Izin lokasi ditolak. Tidak dapat mengambil lokasi.</string>
+    <string name="location_permission_denied_cannot_proceed">Izin lokasi ditolak. Tidak dapat melanjutkan.</string>
+</resources>

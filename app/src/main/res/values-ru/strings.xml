@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Направление Киблы</string>
+    <string name="compass">Компас</string>
+    <string name="location">Местоположение</string>
+    <string name="settings">Настройки</string>
+    <string name="templates">Шаблоны</string>
+    <string name="hello_blank_fragment">Привет, пустой фрагмент</string>
+    <string name="premium">Премиум</string>
+    <string name="compass_dial" translatable="false">Циферблат компаса</string>
+    <string name="compass_hands" translatable="false">Стрелки компаса</string>
+    <string name="sotw_north">С</string>
+    <string name="sotw_east">В</string>
+    <string name="sotw_south">Ю</string>
+    <string name="sotw_west">З</string>
+    <string name="sotw_northeast">СВ</string>
+    <string name="sotw_northwest">СЗ</string>
+    <string name="sotw_southeast">ЮВ</string>
+    <string name="sotw_southwest">ЮЗ</string>
+    <string name="this_action_may_contain_ads">Это действие может содержать рекламу</string>
+    <string name="next">Далее</string>
+    <string name="done">Готово</string>
+    <string name="qibla_compass">Компас Киблы</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">Компас Киблы - это точное приложение для компаса для устройств Android. Используйте самое современное и продвинутое приложение для вашей повседневной работы.</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">Компас - это точное приложение для компаса для устройств Android. Используйте самое современное и продвинутое приложение для вашей повседневной работы.</string>
+    <string name="please_select_a_language">Пожалуйста, выберите язык</string>
+    <string name="ad_loading">Загрузка рекламы</string>
+    <string name="ad_is_loading">Реклама загружается</string>
+    <string name="compass_design">Дизайн компаса</string>
+    <string name="qibla_direction">Направление Киблы:</string>
+    <string name="map_location">Местоположение на карте</string>
+    <string name="latitude">Широта</string>
+    <string name="longitude">Долгота</string>
+    <string name="setting">Настройка</string>
+    <string name="dark_theme">Тёмная тема</string>
+    <string name="language">Язык</string>
+    <string name="how_to_use">Как использовать</string>
+    <string name="share_app">Поделиться приложением</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="rate_app">Оценить приложение</string>
+    <string name="more_app">Другие приложения</string>
+    <string name="terms_and_conditions">Условия использования </string>
+    <string name="get_premium">Получить премиум</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">Разрешить Компасу Киблы доступ к местоположению устройства. Вы можете изменить разрешения в любое время.</string>
+    <string name="allow">Разрешить</string>
+    <string name="don_t_allow">Не разрешать</string>
+    <string name="qibla">Кибла</string>
+    <string name="lifetime_purchase">Пожизненная покупка</string>
+    <string name="lifetime">Пожизненно</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">будет списано однократно, и вы сможете пользоваться бесплатной версией приложения.</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">Не удалось получить местоположение. Убедитесь, что службы геолокации включены.</string>
+    <string name="location_not_found">Местоположение не найдено</string>
+    <string name="location_permission_denied_cannot_retrieve_location">Отказано в разрешении на местоположение. Невозможно получить местоположение.</string>
+    <string name="location_permission_denied_cannot_proceed">Отказано в разррешении на местоположение. Невозможно продолжить.</string>
+</resources>
+

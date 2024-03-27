@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Qibla-Richtung</string>
+    <string name="compass">Kompass</string>
+    <string name="location">Standort</string>
+    <string name="settings">Einstellungen</string>
+    <string name="templates">Vorlagen</string>
+    <string name="hello_blank_fragment">Hallo leeres Fragment</string>
+    <string name="premium">Premium</string>
+    <string name="compass_dial" translatable="false">Kompasszifferblatt</string>
+    <string name="compass_hands" translatable="false">Kompassnadeln</string>
+    <string name="sotw_north">N</string>
+    <string name="sotw_east">O</string>
+    <string name="sotw_south">S</string>
+    <string name="sotw_west">W</string>
+    <string name="sotw_northeast">NO</string>
+    <string name="sotw_northwest">NW</string>
+    <string name="sotw_southeast">SO</string>
+    <string name="sotw_southwest">SW</string>
+    <string name="this_action_may_contain_ads">Diese Aktion kann Anzeigen enthalten</string>
+    <string name="next">Weiter</string>
+    <string name="done">Fertig</string>
+    <string name="qibla_compass">Qibla-Kompass</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">Der Qibla-Kompass ist eine präzise Kompass-App für Android-Geräte. Verwenden Sie die aktuellste und fortschrittlichste App für Ihre tägliche Routine.</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">Der Kompass ist eine präzise Kompass-App für Android-Geräte. Verwenden Sie die aktuellste und fortschrittlichste App für Ihre tägliche Routine.</string>
+    <string name="please_select_a_language">Bitte wählen Sie eine Sprache</string>
+    <string name="ad_loading">Anzeige wird geladen</string>
+    <string name="ad_is_loading">Anzeige wird geladen</string>
+    <string name="compass_design">Kompass-Design</string>
+    <string name="qibla_direction">Qibla-Richtung: </string>
+    <string name="map_location">Kartenstandort</string>
+    <string name="latitude">Breitengrad</string>
+    <string name="longitude">Längengrad</string>
+    <string name="setting">Einstellung</string>
+    <string name="dark_theme">Dunkles Thema</string>
+    <string name="language">Sprache</string>
+    <string name="how_to_use">Anwendung</string>
+    <string name="share_app">App teilen</string>
+    <string name="privacy_policy">Datenschutzbestimmungen</string>
+    <string name="rate_app">App bewerten</string>
+    <string name="more_app">Mehr Apps</string>
+    <string name="terms_and_conditions">Allgemeine Geschäftsbedingungen </string>
+    <string name="get_premium">Premium erhalten</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">Erlauben Sie dem Qibla-Kompass, auf den Gerätestandort zuzugreifen. Sie können die Berechtigungen jederzeit ändern.</string>
+    <string name="allow">Zulassen</string>
+    <string name="don_t_allow">Nicht zulassen</string>
+    <string name="qibla">Qibla</string>
+    <string name="lifetime_purchase">Lebenslanger Kauf</string>
+    <string name="lifetime">Lebensdauer</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">Wird sofort abgezogen und Sie können eine kostenlose Version der App nutzen.</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">Standort konnte nicht abgerufen werden. Stellen Sie sicher, dass Standortdienste aktiviert sind.</string>
+    <string name="location_not_found">Standort nicht gefunden</string>
+    <string name="location_permission_denied_cannot_retrieve_location">Standortberechtigung verweigert. Standort kann nicht abgerufen werden.</string>
+    <string name="location_permission_denied_cannot_proceed">Standortberechtigung verweigert. Kann nicht fortfahren.</string>
+</resources>

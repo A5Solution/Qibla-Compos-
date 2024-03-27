@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">किब्ला दिशा</string>
+    <string name="compass">कंपास</string>
+    <string name="location">स्थान</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="templates">टेम्पलेट्स</string>
+    <string name="hello_blank_fragment">नमस्ते खाली फ्रेगमेंट</string>
+    <string name="premium">प्रीमियम</string>
+    <string name="compass_dial" translatable="false">कंपास डायल</string>
+    <string name="compass_hands" translatable="false">कंपास हैंड्स</string>
+    <string name="sotw_north">उ</string>
+    <string name="sotw_east">पू</string>
+    <string name="sotw_south">द</string>
+    <string name="sotw_west">प</string>
+    <string name="sotw_northeast">उपू</string>
+    <string name="sotw_northwest">उप</string>
+    <string name="sotw_southeast">दपू</string>
+    <string name="sotw_southwest">दप</string>
+    <string name="this_action_may_contain_ads">यह कार्रवाई विज्ञापनों को शामिल कर सकती है</string>
+    <string name="next">आगे</string>
+    <string name="done">समाप्त</string>
+    <string name="qibla_compass">किब्ला कंपास</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">किब्ला कंपास एंड्रॉयड डिवाइसों के लिए एक सटीक कंपास ऐप है। अपने दिनचर्या के लिए सबसे अद्यतन और उन्नत ऐप का उपयोग करें।</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">कंपास एंड्रॉयड डिवाइसों के लिए एक सटीक कंपास ऐप है। अपने दिनचर्या के लिए सबसे अद्यतन और उन्नत ऐप का उपयोग करें।</string>
+    <string name="please_select_a_language">कृपया एक भाषा का चयन करें</string>
+    <string name="ad_loading">विज्ञापन लोड हो रहा है</string>
+    <string name="ad_is_loading">विज्ञापन लोड हो रहा है</string>
+    <string name="compass_design">कंपास डिज़ाइन</string>
+    <string name="qibla_direction">किब्ला दिशा : </string>
+    <string name="map_location">नक्शे पर स्थान</string>
+    <string name="latitude">अक्षांश</string>
+    <string name="longitude">देशांतर</string>
+    <string name="setting">सेटिंग</string>
+    <string name="dark_theme">डार्क थीम</string>
+    <string name="language">भाषा</string>
+    <string name="how_to_use">कैसे उपयोग करें</string>
+    <string name="share_app">ऐप शेयर करें</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="rate_app">ऐप को रेट करें</string>
+    <string name="more_app">अधिक ऐप्स</string>
+    <string name="terms_and_conditions">नियम और शर्तें </string>
+    <string name="get_premium">प्रीमियम प्राप्त करें</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">किब्ला कंपास को डिवाइस स्थान तक पहुँचने की अनुमति दें। आप किसी भी समय अनुमतियों को बदल सकते हैं।</string>
+    <string name="allow">अनुमति दें</string>
+    <string name="don_t_allow">अनुमति न दें</string>
+    <string name="qibla">किब्ला</string>
+    <string name="lifetime_purchase">लाइफटाइम खरीद</string>
+    <string name="lifetime">लाइफटाइम</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">एक बार कटौती की जाएगी और आप ऐप के मुफ्त संस्करत संस्करण का आनंद ले सकते हैं।</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">स्थान प्राप्त करने में असमर्थ। कृपया सुनिश्चित करें कि स्थान सेवाएँ सक्षम हैं।</string>
+    <string name="location_not_found">स्थान नहीं मिला</string>
+    <string name="location_permission_denied_cannot_retrieve_location">स्थान अनुमति निरस्त की गई। स्थान प्राप्त नहीं किया जा सकता।</string>
+    <string name="location_permission_denied_cannot_proceed">स्थान अनुमति निरस्त की गई। आगे नहीं बढ़ा जा सकता।</string>
+</resources>

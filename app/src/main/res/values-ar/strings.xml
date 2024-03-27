@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اتجاه القبلة</string>
+    <string name="compass">البوصلة</string>
+    <string name="location">الموقع</string>
+    <string name="settings">الإعدادات</string>
+    <string name="templates">القوالب</string>
+    <string name="hello_blank_fragment">مرحبًا بك في القطعة الفارغة</string>
+    <string name="premium">بريميوم</string>
+    <string name="compass_dial" translatable="false">مؤشر البوصلة</string>
+    <string name="compass_hands" translatable="false">أيدي البوصلة</string>
+    <string name="sotw_north">N</string>
+    <string name="sotw_east">E</string>
+    <string name="sotw_south">S</string>
+    <string name="sotw_west">W</string>
+    <string name="sotw_northeast">NE</string>
+    <string name="sotw_northwest">NW</string>
+    <string name="sotw_southeast">SE</string>
+    <string name="sotw_southwest">SW</string>
+    <string name="this_action_may_contain_ads">قد تحتوي هذه الإجراءات على إعلانات</string>
+    <string name="next">التالي</string>
+    <string name="done">تم</string>
+    <string name="qibla_compass">بوصلة القبلة</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">بوصلة القبلة هي تطبيق بوصلة دقيقة لأجهزة الأندرويد. استخدم التطبيق الأكثر تحديثًا وتقدمًا لروتين يومك إلى يومك.</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">البوصلة هي تطبيق بوصلة دقيقة لأجهزة الأندرويد. استخدم التطبيق الأكثر تحديثًا وتقدمًا لروتين يومك إلى يومك.</string>
+    <string name="please_select_a_language">يرجى تحديد لغة</string>
+    <string name="ad_loading">جاري تحميل الإعلان</string>
+    <string name="ad_is_loading">الإعلان يتم تحميله</string>
+    <string name="compass_design">تصميم البوصلة</string>
+    <string name="qibla_direction">اتجاه القبلة : </string>
+    <string name="map_location">موقع الخريطة</string>
+    <string name="latitude">خط العرض</string>
+    <string name="longitude">خط الطول</string>
+    <string name="setting">إعداد</string>
+    <string name="dark_theme">سمة داكنة</string>
+    <string name="language">لغة</string>
+    <string name="how_to_use">كيفية الاستخدام</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="rate_app">تقييم التطبيق</string>
+    <string name="more_app">المزيد من التطبيقات</string>
+    <string name="terms_and_conditions"> البنود والشروط</string>
+    <string name="get_premium">احصل على البريميوم</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">السماح لبوصلة القبلة بالوصول إلى موقع الجهاز. يمكنك تغيير الأذونات في أي وقت.</string>
+    <string name="allow">السماح</string>
+    <string name="don_t_allow">عدم السماح</string>
+    <string name="qibla">القبلة</string>
+    <string name="lifetime_purchase">شراء مدى الحياة</string>
+    <string name="lifetime">المدى الحياة</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">سيتم خصمها مرة واحدة ويمكنك الاستمتاع بنسخة مجانية من التطبيق.</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">غير قادر على استرداد الموقع. يرجى التأكد من تمكين خدمات الموقع.</string>
+    <string name="location_not_found">لم يتم العثور على الموقع</string>
+    <string name="location_permission_denied_cannot_retrieve_location">تم رفض إذن الموقع. لا يمكن استرداد الموقع.</string>
+    <string name="location_permission_denied_cannot_proceed">تم رفض إذن الموقع. لا يمكن المتابعة.</string>
+</resources>

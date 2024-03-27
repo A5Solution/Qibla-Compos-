@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#979696</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="appColor">#8C7F06</color>
+    <color name="red">#F44336</color>
+    <color name="light_gray">#C3C0C0</color>
+    <color name="premium_button">#FEE076</color>
+    <color name="bottomNavColor">#000000</color>
+    <color name="lightBlack">#1D1D1D</color>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Hindi</item>
+        <item>Arabic</item>
+        <item>German</item>
+        <item>Indonesian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Malay</item>
+        <item>Portuguese</item>
+        <item>Turkish</item>
+        <item>Chinese</item>
+        <item>Thai</item>
+        <item>Russian</item>
+        <item>Vietnamese</item>
+    </string-array>
+    <string-array name="language_codes">
+        <item>en</item> <!-- English -->
+        <item>es</item> <!-- Spanish -->
+        <item>fr</item> <!-- French -->
+        <item>hi</item> <!-- Hindi -->
+        <item>ar</item> <!-- Arabic -->
+        <item>de</item> <!-- German -->
+        <item>id</item> <!-- Indonesian -->
+        <item>it</item> <!-- Italian -->
+        <item>ja</item> <!-- Japanese -->
+        <item>ko</item> <!-- Korean -->
+        <item>ms</item> <!-- Malay -->
+        <item>pt</item> <!-- Portuguese -->
+        <item>tr</item> <!-- Turkish -->
+        <item>zh</item> <!-- Chinese -->
+        <item>th</item> <!-- Thai -->
+        <item>ru</item> <!-- Russian -->
+        <item>vi</item> <!-- Vietnamese -->
+    </string-array>
+    <array name="language_flags">
+        <item>@drawable/flag_english</item> <!-- English -->
+        <item>@drawable/flag_spanish</item> <!-- Spanish -->
+        <item>@drawable/flag_french</item> <!-- French -->
+        <item>@drawable/flag_hindi</item> <!-- Hindi -->
+        <item>@drawable/flag_arabic</item> <!-- Arabic -->
+        <item>@drawable/flag_german</item> <!-- German -->
+        <item>@drawable/flag_indonesia</item> <!-- Indonesian -->
+        <item>@drawable/flag_italian</item> <!-- Italian -->
+        <item>@drawable/flag_japanese</item> <!-- Japanese -->
+        <item>@drawable/flag_korean</item> <!-- Korean -->
+        <item>@drawable/flag_malay</item> <!-- Malay -->
+        <item>@drawable/flag_portugese</item> <!-- Portuguese -->
+        <item>@drawable/flag_turkish</item> <!-- Turkish -->
+        <item>@drawable/flag_chinese</item> <!-- Chinese -->
+        <item>@drawable/flag_thai</item> <!-- Thai -->
+        <item>@drawable/flag_russian</item> <!-- Russian -->
+        <item>@drawable/flag_vietnamese</item> <!-- Vietnamese -->
+    </array>
+</resources>

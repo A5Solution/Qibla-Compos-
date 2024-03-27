@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Direção da Qibla</string>
+    <string name="compass">Bússola</string>
+    <string name="location">Localização</string>
+    <string name="settings">Configurações</string>
+    <string name="templates">Modelos</string>
+    <string name="hello_blank_fragment">Olá fragmento em branco</string>
+    <string name="premium">Premium</string>
+    <string name="compass_dial" translatable="false">Mostrador da bússola</string>
+    <string name="compass_hands" translatable="false">Ponteiros da bússola</string>
+    <string name="sotw_north">Norte</string>
+    <string name="sotw_east">Leste</string>
+    <string name="sotw_south">Sul</string>
+    <string name="sotw_west">Oeste</string>
+    <string name="sotw_northeast">Nordeste</string>
+    <string name="sotw_northwest">Noroeste</string>
+    <string name="sotw_southeast">Sudeste</string>
+    <string name="sotw_southwest">Sudoeste</string>
+    <string name="this_action_may_contain_ads">Esta ação pode conter anúncios</string>
+    <string name="next">Próximo</string>
+    <string name="done">Concluído</string>
+    <string name="qibla_compass">Bússola Qibla</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">A Bússola Qibla é um aplicativo de bússola preciso para dispositivos Android. Use o aplicativo mais atualizado e avançado para sua rotina diária.</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">A Bússola é um aplicativo de bússola preciso para dispositivos Android. Use o aplicativo mais atualizado e avançado para sua rotina diária.</string>
+    <string name="please_select_a_language">Por favor, selecione um idioma</string>
+    <string name="ad_loading">Carregando anúncio</string>
+    <string name="ad_is_loading">Anúncio está sendo carregado</string>
+    <string name="compass_design">Design da bússola</string>
+    <string name="qibla_direction">Ângulo Qibla:</string>
+    <string name="map_location">Localização no mapa</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="setting">Configuração</string>
+    <string name="dark_theme">Tema escuro</string>
+    <string name="language">Idioma</string>
+    <string name="how_to_use">Como usar</string>
+    <string name="share_app">Compartilhar aplicativo</string>
+    <string name="privacy_policy">Política de Privacidade</string>
+    <string name="rate_app">Avaliar aplicativo</string>
+    <string name="more_app">Mais aplicativos</string>
+    <string name="terms_and_conditions">Termos e Condições </string>
+    <string name="get_premium">Obter Premium</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">Permitir que a Bússola Qibla acesse a localização do dispositivo. Você pode alterar as permissões a qualquer momento.</string>
+    <string name="allow">Permitir</string>
+    <string name="don_t_allow">Não Permitir</string>
+    <string name="qibla">Qibla</string>
+    <string name="lifetime_purchase">Compra Vitalícia</string>
+    <string name="lifetime">Vitalício</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">será deduzido de uma vez e você poderá desfrutar da versão gratuita do aplicativo.</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">Não foi possível recuperar a localização. Por favor, certifique-se de que os serviços de localização estejam ativados.</string>
+    <string name="location_not_found">Localização não encontrada</string>
+    <string name="location_permission_denied_cannot_retrieve_location">Permissão de localização negada. Não é possível recuperar a localização.</string>
+    <string name="location_permission_denied_cannot_proceed">Permissão de localização negada. Não é possível prosseguir.</string>
+</resources>

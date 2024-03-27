@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Direzione Qibla</string>
+    <string name="compass">Bussola</string>
+    <string name="location">Posizione</string>
+    <string name="settings">Impostazioni</string>
+    <string name="templates">Modelli</string>
+    <string name="hello_blank_fragment">Ciao frammento vuoto</string>
+    <string name="premium">Premium</string>
+    <string name="compass_dial" translatable="false">Quadrante della bussola</string>
+    <string name="compass_hands" translatable="false">Aghi della bussola</string>
+    <string name="sotw_north">N</string>
+    <string name="sotw_east">E</string>
+    <string name="sotw_south">S</string>
+    <string name="sotw_west">O</string>
+    <string name="sotw_northeast">NE</string>
+    <string name="sotw_northwest">NO</string>
+    <string name="sotw_southeast">SE</string>
+    <string name="sotw_southwest">SO</string>
+    <string name="this_action_may_contain_ads">Questa azione potrebbe contenere annunci</string>
+    <string name="next">Avanti</string>
+    <string name="done">Fatto</string>
+    <string name="qibla_compass">Bussola Qibla</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">La bussola Qibla è un\'applicazione bussola accurata per dispositivi Android. Utilizza l\'applicazione più aggiornata e avanzata per la tua routine quotidiana.</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">La bussola è un\'applicazione bussola accurata per dispositivi Android. Utilizza l\'applicazione più aggiornata e avanzata per la tua routine quotidiana.</string>
+    <string name="please_select_a_language">Seleziona una lingua</string>
+    <string name="ad_loading">Caricamento annuncio</string>
+    <string name="ad_is_loading">Caricamento annuncio</string>
+    <string name="compass_design">Design della bussola</string>
+    <string name="qibla_direction">Angolo Qibla: </string>
+    <string name="map_location">Posizione sulla mappa</string>
+    <string name="latitude">Latitudine</string>
+    <string name="longitude">Longitudine</string>
+    <string name="setting">Impostazione</string>
+    <string name="dark_theme">Tema scuro</string>
+    <string name="language">Lingua</string>
+    <string name="how_to_use">Come utilizzare</string>
+    <string name="share_app">Condividi app</string>
+    <string name="privacy_policy">Informativa sulla privacy</string>
+    <string name="rate_app">Valuta app</string>
+    <string name="more_app">Altre app</string>
+    <string name="terms_and_conditions">Termini e condizioni </string>
+    <string name="get_premium">Ottieni Premium</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">Consenti alla bussola Qibla di accedere alla posizione del dispositivo. È possibile modificare le autorizzazioni in qualsiasi momento.</string>
+    <string name="allow">Consenti</string>
+    <string name="don_t_allow">Non consentire</string>
+    <string name="qibla">Qibla</string>
+    <string name="lifetime_purchase">Acquisto a vita</string>
+    <string name="lifetime">Vita</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">verrà addebitato una volta e potrai usufruire della versione gratuita dell\'app.</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">Impossibile recuperare la posizione. Assicurati che i servizi di localizzazione siano abilitati.</string>
+    <string name="location_not_found">Posizione non trovata</string>
+    <string name="location_permission_denied_cannot_retrieve_location">Autorizzazione alla posizione negata. Impossibile recuperare la posizione.</string>
+    <string name="location_permission_denied_cannot_proceed">Autorizzazione alla posizione negata. Impossibile procedere.</string>
+</resources>

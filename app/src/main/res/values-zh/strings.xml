@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">指南针</string>
+    <string name="compass">指南针</string>
+    <string name="location">位置</string>
+    <string name="settings">设置</string>
+    <string name="templates">模板</string>
+    <string name="hello_blank_fragment">你好，空白片段</string>
+    <string name="premium">高级版</string>
+    <string name="compass_dial" translatable="false">指南针刻度盘</string>
+    <string name="compass_hands" translatable="false">指南针指针</string>
+    <string name="sotw_north">北</string>
+    <string name="sotw_east">东</string>
+    <string name="sotw_south">南</string>
+    <string name="sotw_west">西</string>
+    <string name="sotw_northeast">东北</string>
+    <string name="sotw_northwest">西北</string>
+    <string name="sotw_southeast">东南</string>
+    <string name="sotw_southwest">西南</string>
+    <string name="this_action_may_contain_ads">此操作可能包含广告</string>
+    <string name="next">下一个</string>
+    <string name="done">完成</string>
+    <string name="qibla_compass">指南针</string>
+    <string name="qibla_compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">指南针是一款精准的 Android 设备指南针应用。使用最新和最先进的应用程序进行日常工作。</string>
+    <string name="compass_is_an_accurate_compass_app_for_android_devices_use_the_most_up_to_date_and_advanced_app_for_your_day_to_day_routine">指南针是一款精准的 Android 设备指南针应用。使用最新和最先进的应用程序进行日常工作。</string>
+    <string name="please_select_a_language">请选择语言</string>
+    <string name="ad_loading">广告加载中</string>
+    <string name="ad_is_loading">广告加载中</string>
+    <string name="compass_design">指南针设计</string>
+    <string name="qibla_direction">指南针方向：</string>
+    <string name="map_location">地图位置</string>
+    <string name="latitude">纬度</string>
+    <string name="longitude">经度</string>
+    <string name="setting">设置</string>
+    <string name="dark_theme">暗黑主题</string>
+    <string name="language">语言</string>
+    <string name="how_to_use">如何使用</string>
+    <string name="share_app">分享应用</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="rate_app">评分</string>
+    <string name="more_app">更多应用</string>
+    <string name="terms_and_conditions">条款和条件 </string>
+    <string name="get_premium">获取高级版</string>
+    <string name="allow_qibla_compass_to_access_device_location_you_can_change_permissions_at_any_time">允许指南针访问设备位置。您可以随时更改权限。</string>
+    <string name="allow">允许</string>
+    <string name="don_t_allow">不允许</string>
+    <string name="qibla">指南</string>
+    <string name="lifetime_purchase">终身购买</string>
+    <string name="lifetime">终身</string>
+    <string name="will_be_deducted_at_once_and_you_can_enjoy_and_free_version_of_app">一次性扣款，您可以享受免费版本的应用。</string>
+    <string name="unable_to_retrieve_location_please_make_sure_location_services_are_enabled">无法检索位置。请确保位置服务已启用。</string>
+    <string name="location_not_found">未找到位置</string>
+    <string name="location_permission_denied_cannot_retrieve_location">位置权限被拒绝。无法检索位置。</string>
+    <string name="location_permission_denied_cannot_proceed">位置权限被拒绝。无法继续。</string>
+</resources>
