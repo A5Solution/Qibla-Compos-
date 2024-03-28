@@ -7,7 +7,7 @@
 
     <uses-feature android:name="android.hardware.sensor.accelerometer" />
     <uses-feature android:name="android.hardware.sensor.compass" />
-
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
     <application
         android:name=".Activities.Classes.ApplicationClass"
         android:allowBackup="true"
