@@ -39,21 +39,33 @@
             android:background="@color/appColor">
 
 
-            <TextView
-                android:id="@+id/back"
-                android:layout_width="wrap_content"
+            <LinearLayout
+
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:text="@string/map_location"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:gravity="center"
-                android:drawableStart="@drawable/back"
-                android:drawableTint="@color/white"
-                android:textStyle="bold"
-                android:drawablePadding="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="1"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:foreground="@drawable/ripple_effect"
+                    android:src="@drawable/back"
+                    android:tint="@color/white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/map_location"
+                    android:textSize="22sp"
+                    android:drawablePadding="5dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -76,6 +88,7 @@
             style="@style/locate"
             app:backgroundTint="@color/light_gray"
             app:fabSize="normal"
+            android:foreground="@drawable/ripple_effect"
             app:layout_anchorGravity="bottom|end"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -89,6 +102,7 @@
             android:layout_marginBottom="16dp"
             app:cardElevation="10dp"
             app:cardCornerRadius="13dp"
+            android:foreground="@drawable/ripple_effect"
             app:layout_constraintBottom_toTopOf="@+id/myLocation"
             app:layout_constraintEnd_toEndOf="parent">
             <LinearLayout

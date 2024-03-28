@@ -52,4 +52,17 @@
     <string name="location_not_found">Lokasi tidak dijumpai</string>
     <string name="location_permission_denied_cannot_retrieve_location">Permintaan lokasi ditolak. Tidak dapat mengambil lokasi.</string>
     <string name="location_permission_denied_cannot_proceed">Permintaan lokasi ditolak. Tidak dapat meneruskan.</string>
+    <string name="calibrate_your_device_by_moving_it_in_3_directions_as_shown_in_the_given_illustrations_or_moving_your_phone_in_8_pattern_shape">Kalibrasikan peranti anda dengan menggerakkannya dalam 3 arah seperti yang ditunjukkan dalam ilustrasi yang diberikan atau dengan menggerakkan telefon anda dalam bentuk corak 8.</string>
+    <string name="keep_your_device_away_from_magnetic_things_if_sensor_accuracy_is_still_low_you_did_the_calibration_wrong_or_may_be_there_is_a_problem_with_your_device">Jauhkan peranti anda dari benda-benda magnetik, jika ketepatan sensor masih rendah, anda telah melakukan kalibrasi dengan salah atau mungkin ada masalah dengan peranti anda.</string>
+    <string name="choose_theme">Pilih Tema</string>
+    <string name="light">Cahaya</string>
+    <string name="dark">Gelap</string>
+    <string name="cancel">Batal</string>
+    <string name="exit">Keluar</string>
+    <string name="do_you_want_to_exit">Adakah anda ingin keluar?</string>
+    <string name="gps_coordinates">Koordinat GPS</string>
+    <string name="compass_sensor_is_not_available_in_your_device_nplease_contact_your_device_support_center">Pemalar Kompas tidak tersedia di peranti anda.\nSila hubungi pusat sokongan peranti anda.</string>
+    <string name="ok">OK</string>
+    <string name="alert">Amaran!</string>
+
 </resources>

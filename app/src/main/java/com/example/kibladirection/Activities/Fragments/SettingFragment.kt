@@ -68,12 +68,13 @@ class SettingFragment : Fragment(), OnBackPressedListener {
         }
         binding.darkTheme.setOnClickListener {
             Utils.logAnalytic("Settings theme clicked")
+
             // Get the saved theme from SharedPreferences
             val sharedPreferences = requireActivity().getSharedPreferences("ThemePrefs", Context.MODE_PRIVATE)
             val savedTheme = sharedPreferences.getString("theme", "Light")
 
             // Show a dialog with options for light and dark themes
-            val builder = AlertDialog.Builder(ApplicationClass.context)
+            val builder = AlertDialog.Builder(requireContext())
             builder.setTitle("Choose Theme")
                 .setSingleChoiceItems(arrayOf("Light", "Dark"), if (savedTheme == "Dark") 1 else 0) { _, which ->
                     // Save the selected theme in shared preferences
@@ -84,23 +85,25 @@ class SettingFragment : Fragment(), OnBackPressedListener {
                     }
                     val editor = sharedPreferences.edit()
                     editor.putString("theme", selectedTheme)
-                    Log.d("theme",selectedTheme)
+                    Log.d("theme", selectedTheme)
                     editor.apply()
 
                     // Apply the selected theme
                     when (which) {
                         0 -> {
                             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-                            builder.create().dismiss()
                         }
                         1 -> {
                             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-                            builder.create().dismiss()
                         }
                     }
                 }
-            builder.create().show()
+
+            val alertDialog = builder.create()
+            alertDialog.show()
         }
+
+
 
 
 

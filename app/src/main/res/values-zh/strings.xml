@@ -52,4 +52,17 @@
     <string name="location_not_found">未找到位置</string>
     <string name="location_permission_denied_cannot_retrieve_location">位置权限被拒绝。无法检索位置。</string>
     <string name="location_permission_denied_cannot_proceed">位置权限被拒绝。无法继续。</string>
+    <string name="calibrate_your_device_by_moving_it_in_3_directions_as_shown_in_the_given_illustrations_or_moving_your_phone_in_8_pattern_shape">通过按照给定插图中显示的方式移动设备，或者以8图案形状移动您的手机来校准您的设备。</string>
+    <string name="keep_your_device_away_from_magnetic_things_if_sensor_accuracy_is_still_low_you_did_the_calibration_wrong_or_may_be_there_is_a_problem_with_your_device">将您的设备远离磁性物体。如果传感器精度仍然较低，您可能已经错误校准，或者您的设备可能存在问题。</string>
+    <string name="choose_theme">选择主题</string>
+    <string name="light">亮</string>
+    <string name="dark">暗</string>
+    <string name="cancel">取消</string>
+    <string name="exit">退出</string>
+    <string name="do_you_want_to_exit">您要退出吗？</string>
+    <string name="gps_coordinates">GPS坐标</string>
+    <string name="compass_sensor_is_not_available_in_your_device_nplease_contact_your_device_support_center">您的设备中不可用罗盘传感器。\n请联系您的设备支持中心。</string>
+    <string name="ok">好的</string>
+    <string name="alert">警报！</string>
+
 </resources>

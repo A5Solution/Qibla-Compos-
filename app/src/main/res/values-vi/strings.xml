@@ -52,4 +52,17 @@
     <string name="location_not_found">Không tìm thấy vị trí</string>
     <string name="location_permission_denied_cannot_retrieve_location">Từ chối quyền vị trí. Không thể truy xuất vị trí.</string>
     <string name="location_permission_denied_cannot_proceed">Từ chối quyền vị trí. Không thể tiếp tục.</string>
+    <string name="calibrate_your_device_by_moving_it_in_3_directions_as_shown_in_the_given_illustrations_or_moving_your_phone_in_8_pattern_shape">Hiệu chỉnh thiết bị của bạn bằng cách di chuyển nó theo 3 hướng như được hiển thị trong hình minh họa hoặc di chuyển điện thoại của bạn theo hình dạng mẫu 8.</string>
+    <string name="keep_your_device_away_from_magnetic_things_if_sensor_accuracy_is_still_low_you_did_the_calibration_wrong_or_may_be_there_is_a_problem_with_your_device">Đặt thiết bị của bạn xa các vật từ tính. Nếu độ chính xác của cảm biến vẫn thấp, bạn đã hiệu chỉnh sai hoặc có thể có vấn đề với thiết bị của bạn.</string>
+    <string name="choose_theme">Chọn Chủ đề</string>
+    <string name="light">Sáng</string>
+    <string name="dark">Tối</string>
+    <string name="cancel">Hủy</string>
+    <string name="exit">Thoát</string>
+    <string name="do_you_want_to_exit">Bạn muốn thoát không?</string>
+    <string name="gps_coordinates">Tọa độ GPS</string>
+    <string name="compass_sensor_is_not_available_in_your_device_nplease_contact_your_device_support_center">Cảm biến la bàn không khả dụng trên thiết bị của bạn.\nVui lòng liên hệ trung tâm hỗ trợ của thiết bị của bạn.</string>
+    <string name="ok">OK</string>
+    <string name="alert">Cảnh báo!</string>
+
 </resources>

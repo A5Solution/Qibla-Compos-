@@ -10,6 +10,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
 import com.akexorcist.localizationactivity.ui.LocalizationActivity
 import com.example.kibladirection.Activities.Ads.AdMobBanner
+import com.example.kibladirection.Activities.Classes.ApplicationClass
 import com.example.kibladirection.Activities.Classes.SubscriptionManager
 import com.example.kibladirection.Activities.Classes.Utils.Companion.logAnalytic
 import com.example.kibladirection.R
@@ -30,18 +31,19 @@ class HowToUseActivity : LocalizationActivity() {
         val selectedLanguagecode = sharedPref.getString("selected_language_code", "")
         setLanguage(selectedLanguagecode.toString())
         subscriptionManager = SubscriptionManager(this)
-        val isLifetimeSubscriptionActive = subscriptionManager.isLifetimeSubscriptionActive()
-
-        if (isLifetimeSubscriptionActive) {
-            binding.frameLayout.visibility= View.GONE
-        } else {
-            lifecycleScope.launch {
-                val bannerAdId = getString(R.string.admob_banner_id)
-                AdMobBanner.loadFullBannerAd(this@HowToUseActivity, bannerAdId, binding.frameLayout)
-            }
-        }
         binding.back.setOnClickListener(){
             finish()
+        }
+    }
+    override fun onResume() {
+        super.onResume()
+        val isLifetimeSubscriptionActive = subscriptionManager.isLifetimeSubscriptionActive()
+
+        if ( isLifetimeSubscriptionActive) {
+            // User is subscribed, hide ads
+            binding.nativeAdContainer.visibility = View.GONE
+        } else {
+            SplashActivity.admobNative.loadNative(this, SplashActivity.admobNativeId, binding.nativeAdContainer)
         }
     }
 }

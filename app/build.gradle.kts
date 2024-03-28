@@ -23,7 +23,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
             resValue("string", "admob_open_id", "ca-app-pub-7055337155394452/3118555066")
             resValue("string", "admob_app_id", "ca-app-pub-7055337155394452~7058742023")

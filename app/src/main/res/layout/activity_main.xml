@@ -63,6 +63,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:foreground="@drawable/ripple_effect"
                         android:orientation="vertical">
 
                         <ImageView
@@ -87,6 +88,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginStart="35dp"
                         android:gravity="center"
+                        android:foreground="@drawable/ripple_effect"
                         android:orientation="vertical">
 
                         <ImageView
@@ -120,7 +122,8 @@
                     <ImageView
                         android:layout_width="65dp"
                         android:layout_height="65dp"
-                        style="@style/ic_kibla" />
+                        style="@style/ic_kibla"
+                        android:foreground="@drawable/ripple_effect"/>
 
                 </LinearLayout>
 
@@ -140,7 +143,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:foreground="@drawable/ripple_effect">
 
                         <ImageView
                             android:id="@+id/ic_template"
@@ -164,6 +168,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginStart="35dp"
                         android:gravity="center"
+                        android:foreground="@drawable/ripple_effect"
                         android:orientation="vertical">
 
                         <ImageView

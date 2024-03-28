@@ -1,16 +1,26 @@
 package com.example.kibladirection.Activities.Fragments
 
+import android.Manifest
 import android.annotation.SuppressLint
+import android.content.pm.PackageManager
 import android.graphics.Bitmap
+import android.graphics.Canvas
+import android.graphics.Paint
+import android.graphics.Rect
 import android.graphics.drawable.BitmapDrawable
 import android.location.Geocoder
 import android.os.Bundle
+import android.text.Spannable
+import android.text.SpannableStringBuilder
+import android.text.style.LineBackgroundSpan
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.toBitmap
 import androidx.lifecycle.lifecycleScope
@@ -38,7 +48,10 @@ class MapFragment : Fragment(), OnBackPressedListener {
     private var locationOverlay: MyLocationNewOverlay? = null
     private lateinit var geocoder: Geocoder
     private lateinit var subscriptionManager: SubscriptionManager
+    companion object{
+        private const val LOCATION_PERMISSION_REQUEST_CODE = 100
 
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -64,13 +77,46 @@ class MapFragment : Fragment(), OnBackPressedListener {
         locationOverlay?.enableMyLocation()
         mapView?.overlays?.add(locationOverlay)
         geocoder = Geocoder(ApplicationClass.context, Locale.getDefault())
-        getLastLocation()
 
         binding.back.setOnClickListener(){
             Utils.logAnalytic("Map Fragment back clicked")
             findNavController().navigate(R.id.action_mapFragment_to_homeFragment)
         }
+        checkLocationPermission()
         return binding.root
+    }
+    private fun checkLocationPermission() {
+        if (ActivityCompat.checkSelfPermission(
+                requireContext(),
+                Manifest.permission.ACCESS_FINE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+            ActivityCompat.requestPermissions(
+                requireActivity(),
+                arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
+                LOCATION_PERMISSION_REQUEST_CODE
+            )
+        } else {
+            getLastLocation()
+        }
+    }
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray
+    ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        if (requestCode == LOCATION_PERMISSION_REQUEST_CODE) {
+            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                getLastLocation()
+            } else {
+                Toast.makeText(
+                    requireContext(),
+                    "Location permission denied. Please allow location access to use this feature.",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+        }
     }
     @SuppressLint("MissingPermission")
     private fun getLastLocation() {

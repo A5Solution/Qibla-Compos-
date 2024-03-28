@@ -17,12 +17,15 @@ import com.google.firebase.analytics.FirebaseAnalytics
 
 class LanguageSelectionActivity : LocalizationActivity(), LanguageAdapter.OnItemClickListener {
     data class Language(val name: String, val code: String, val flagResourceId: Int)
-    private  lateinit var sharedPreferences:SharedPreferences
-    private  lateinit var editor:Editor
+    private lateinit var sharedPreferences: SharedPreferences
+    private lateinit var editor: Editor
     private lateinit var languages: Array<Language>
     private lateinit var binding: ActivityLanguageSelectionBinding
     private lateinit var subscriptionManager: SubscriptionManager
     private lateinit var firebaseAnalytics: FirebaseAnalytics // Add this line
+
+    private var selectedPosition: Int = 0 // Track selected position
+    private lateinit var adapter: LanguageAdapter // Declare adapter as a class property
 
     companion object {
         private const val PREFS_NAME = "MyPrefs"
@@ -56,13 +59,13 @@ class LanguageSelectionActivity : LocalizationActivity(), LanguageAdapter.OnItem
 
         binding.languageRecyclerView.layoutManager = LinearLayoutManager(this)
 
-        val adapter = LanguageAdapter(languages, this)
+        adapter = LanguageAdapter(languages, this,applicationContext) // Initialize the adapter
+        binding.languageRecyclerView.adapter = adapter
 
         val editor = sharedPreferences.edit()
         // Check if SliderActivity has been opened before
         val isSliderActivityOpened = sharedPreferences.getBoolean(PREF_SLIDER_ACTIVITY_OPENED, false)
-        binding.languageRecyclerView.adapter = adapter
-        binding.done.setOnClickListener(){
+        binding.done.setOnClickListener {
             val nextActivity = if (isSliderActivityOpened) {
                 MainActivity::class.java
             } else {
@@ -78,20 +81,30 @@ class LanguageSelectionActivity : LocalizationActivity(), LanguageAdapter.OnItem
     }
 
     override fun onItemClick(position: Int) {
+        // Deselect previous item if needed
+        if (selectedPosition != position) {
+            // Update the UI to deselect the previous item
+            adapter.notifyItemChanged(selectedPosition)
+        }
+
+        // Update selected position
+        selectedPosition = position
+
+        // Update UI to select the clicked item
+        adapter.notifyItemChanged(selectedPosition)
         val editor = sharedPreferences.edit()
         editor.putString("selected_language_name", languages[position].name)
         editor.putString("selected_language_code", languages[position].code)
-        logAnalytic("Language_selected"+languages[position].name.toString())
+        logAnalytic("Language_selected" + languages[position].name.toString())
         editor.apply()
     }
-
 
     override fun onResume() {
         super.onResume()
 
         val isLifetimeSubscriptionActive = subscriptionManager.isLifetimeSubscriptionActive()
 
-        if ( isLifetimeSubscriptionActive) {
+        if (isLifetimeSubscriptionActive) {
             // User is subscribed, hide ads
             binding.nativeAdContainer.visibility = View.GONE
         } else {

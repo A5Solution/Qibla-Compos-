@@ -144,7 +144,25 @@ class SliderActivity : LocalizationActivity() {
         if (requestCode == LOCATION_PERMISSION_REQUEST_CODE) {
             if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 // Permission granted, navigate to the next activity
-
+                val isLifetimeSubscriptionActive = subscriptionManager.isLifetimeSubscriptionActive()
+                if (isLifetimeSubscriptionActive) {
+                    startActivity(Intent(this@SliderActivity, MainActivity::class.java))
+                    finish()
+                } else {
+                    SplashActivity.admobInter.showInterAd(this) {
+                        SplashActivity.admobInter.loadInterAd(
+                            this,
+                            SplashActivity.admobInterId
+                        )
+                        startActivity(Intent(this@SliderActivity, MainActivity::class.java))
+                        finish()
+                    }
+                    if(AdmobInter.isClicked){
+                        startActivity(Intent(this@SliderActivity, MainActivity::class.java))
+                        finish()
+                    }
+                    // Show Interstitial ad
+                }
             } else {
                 // Permission denied, show a message or handle it accordingly
                 Toast.makeText(

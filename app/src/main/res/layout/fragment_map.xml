@@ -55,6 +55,7 @@
                         android:id="@+id/back"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
+                        android:foreground="@drawable/ripple_effect"
                         android:src="@drawable/back"
                         android:tint="@color/white"/>
                     <TextView
@@ -94,100 +95,107 @@
                     android:layout_marginTop="-20dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@+id/mapView">
+                    app:layout_constraintStart_toStartOf="@+id/mapView"
+                    style="@style/top_curve">
 
-                    <ScrollView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        >
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:orientation="vertical"
                             android:padding="20dp"
-
-                            style="@style/top_curve">
+                            android:layout_margin="5dp"
+                            style="@style/top_curve_map">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/gps_coordinates"
+                                android:textSize="22sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/white"/>
                             <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical">
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_marginTop="10dp"
+
+                                >
 
                                 <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content">
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical"
+                                    android:layout_marginEnd="20dp"
+                                    >
                                     <TextView
-                                        android:layout_width="0dp"
-                                        android:layout_weight="1"
+                                        android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="@string/latitude"
                                         android:textStyle="bold"
                                         android:textColor="@color/white"
-                                        android:textSize="16sp"/>
+                                        android:textSize="18sp"/>
                                     <TextView
                                         android:id="@+id/Latitude"
-                                        android:layout_width="0dp"
-                                        android:layout_weight="1"
+                                        android:layout_width="wrap_content"
                                         android:gravity="center"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="5dp"
                                         android:layout_marginTop="3dp"
-                                        android:text=""
                                         android:textColor="@color/white"
-                                        android:textSize="14sp" />
+                                        android:textSize="16sp"
+                                        style="@style/bottom_line"/>
                                 </LinearLayout>
                                 <LinearLayout
-                                    android:layout_width="match_parent"
+                                    android:layout_width="0dp"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp">
+                                    android:layout_weight="1"
+                                    android:orientation="vertical"
+                                    android:layout_marginStart="10dp">
+
                                     <TextView
-                                        android:layout_width="0dp"
-                                        android:layout_weight="1"
+                                        android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:layout_weight="1"
                                         android:text="@string/longitude"
-                                        android:textStyle="bold"
                                         android:textColor="@color/white"
-                                        android:textSize="16sp"/>
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
                                     <TextView
                                         android:id="@+id/Longitude"
-                                        android:layout_width="0dp"
+                                        android:layout_width="wrap_content"
                                         android:layout_weight="1"
                                         android:gravity="center"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="5dp"
                                         android:layout_marginTop="3dp"
-                                        android:text=""
+                                        style="@style/bottom_line"
                                         android:textColor="@color/white"
-                                        android:textSize="14sp" />
+                                        android:textSize="16sp" />
                                 </LinearLayout>
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:orientation="vertical"
                                 android:layout_marginTop="10dp">
 
                                 <TextView
-                                    android:layout_width="0dp"
-                                    android:layout_weight="1"
+                                    android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="@string/location"
                                     android:textColor="@color/white"
-                                    android:textSize="16sp"
+                                    android:textSize="18sp"
                                     android:textStyle="bold" />
 
                                 <TextView
                                     android:id="@+id/streetAddress"
-                                    android:layout_width="0dp"
-                                    android:layout_weight="1"
-                                    android:gravity="center"
+                                    android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="5dp"
                                     android:layout_marginTop="3dp"
                                     android:layout_marginEnd="4dp"
-                                    android:text=""
+                                    android:lineSpacingExtra="5dp"
                                     android:textColor="@color/white"
-                                    android:textSize="14sp" />
+                                    android:textSize="16sp" />
                             </LinearLayout>
 
 
@@ -195,7 +203,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:visibility="gone">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -246,7 +255,6 @@
 
                             </LinearLayout>
                         </LinearLayout>
-                    </ScrollView>
                 </LinearLayout>
             </LinearLayout>
 

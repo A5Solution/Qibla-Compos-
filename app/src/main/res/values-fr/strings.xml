@@ -52,5 +52,18 @@
     <string name="location_not_found">Emplacement non trouvé</string>
     <string name="location_permission_denied_cannot_retrieve_location">Autorisation de localisation refusée. Impossible de récupérer l\'emplacement.</string>
     <string name="location_permission_denied_cannot_proceed">Autorisation de localisation refusée. Impossible de continuer.</string>
+    <string name="calibrate_your_device_by_moving_it_in_3_directions_as_shown_in_the_given_illustrations_or_moving_your_phone_in_8_pattern_shape">Calibrez votre appareil en le déplaçant dans 3 directions comme indiqué dans les illustrations fournies ou en déplaçant votre téléphone en forme de motif 8.</string>
+    <string name="keep_your_device_away_from_magnetic_things_if_sensor_accuracy_is_still_low_you_did_the_calibration_wrong_or_may_be_there_is_a_problem_with_your_device">Éloignez votre appareil des choses magnétiques, si la précision du capteur est toujours faible, vous avez mal calibré ou il peut y avoir un problème avec votre appareil.</string>
+    <string name="choose_theme">Choisissez un thème</string>
+    <string name="light">Lumière</string>
+    <string name="dark">Sombre</string>
+    <string name="cancel">Annuler</string>
+    <string name="exit">Sortie</string>
+    <string name="do_you_want_to_exit">Voulez-vous sortir?</string>
+    <string name="gps_coordinates">Coordonnées GPS</string>
+    <string name="compass_sensor_is_not_available_in_your_device_nplease_contact_your_device_support_center">Le capteur de boussole n\'est pas disponible sur votre appareil.\nVeuillez contacter le centre de support de votre appareil.</string>
+    <string name="ok">D\'accord</string>
+    <string name="alert">Alerte!</string>
+
 </resources>
 

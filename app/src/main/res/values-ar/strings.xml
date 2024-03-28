@@ -52,4 +52,17 @@
     <string name="location_not_found">لم يتم العثور على الموقع</string>
     <string name="location_permission_denied_cannot_retrieve_location">تم رفض إذن الموقع. لا يمكن استرداد الموقع.</string>
     <string name="location_permission_denied_cannot_proceed">تم رفض إذن الموقع. لا يمكن المتابعة.</string>
+    <string name="calibrate_your_device_by_moving_it_in_3_directions_as_shown_in_the_given_illustrations_or_moving_your_phone_in_8_pattern_shape">قم بعملية معايرة جهازك عن طريق تحريكه في 3 اتجاهات كما هو موضح في الرسوم التوضيحية المعطاة أو تحريك هاتفك في شكل نمط 8.</string>
+    <string name="keep_your_device_away_from_magnetic_things_if_sensor_accuracy_is_still_low_you_did_the_calibration_wrong_or_may_be_there_is_a_problem_with_your_device">ابتعد جهازك عن الأشياء المغناطيسية، إذا كانت دقة الاستشعار لا تزال منخفضة، فقد قمت بعملية المعايرة بشكل خاطئ أو قد يكون هناك مشكلة في جهازك.</string>
+    <string name="choose_theme">اختر السمة</string>
+    <string name="light">فاتح</string>
+    <string name="dark">غامق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="exit">خروج</string>
+    <string name="do_you_want_to_exit">هل ترغب في الخروج؟</string>
+    <string name="gps_coordinates">إحداثيات جي بي أس</string>
+    <string name="compass_sensor_is_not_available_in_your_device_nplease_contact_your_device_support_center">جهاز البوصلة غير متوفر في جهازك.\nيرجى الاتصال بمركز دعم الجهاز الخاص بك.</string>
+    <string name="ok">موافق</string>
+    <string name="alert">تنبيه!</string>
+
 </resources>

@@ -61,7 +61,7 @@ class ApplicationClass : Application(), LifecycleObserver, Application.ActivityL
     @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
     fun onMoveToForeground() {
         Log.d("isPermissionPopupVisible", "onMoveToForeground: ${counter}")
-        if(counter<=4){
+        if(counter<=6){
             return
         }else{
             if (isPermissionPopupVisible) {

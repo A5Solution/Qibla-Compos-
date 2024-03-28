@@ -52,4 +52,17 @@
     <string name="location_not_found">Posizione non trovata</string>
     <string name="location_permission_denied_cannot_retrieve_location">Autorizzazione alla posizione negata. Impossibile recuperare la posizione.</string>
     <string name="location_permission_denied_cannot_proceed">Autorizzazione alla posizione negata. Impossibile procedere.</string>
+    <string name="calibrate_your_device_by_moving_it_in_3_directions_as_shown_in_the_given_illustrations_or_moving_your_phone_in_8_pattern_shape">Calibra il tuo dispositivo muovendolo in 3 direzioni come mostrato nelle illustrazioni fornite o muovendo il tuo telefono nella forma di un pattern 8.</string>
+    <string name="keep_your_device_away_from_magnetic_things_if_sensor_accuracy_is_still_low_you_did_the_calibration_wrong_or_may_be_there_is_a_problem_with_your_device">Tieni il tuo dispositivo lontano da cose magnetiche, se l\'accuratezza del sensore è ancora bassa, hai sbagliato la calibrazione o potrebbe esserci un problema con il tuo dispositivo.</string>
+    <string name="choose_theme">Scegli un tema</string>
+    <string name="light">Chiaro</string>
+    <string name="dark">Scuro</string>
+    <string name="cancel">Annulla</string>
+    <string name="exit">Esci</string>
+    <string name="do_you_want_to_exit">Vuoi uscire?</string>
+    <string name="gps_coordinates">Coordinate GPS</string>
+    <string name="compass_sensor_is_not_available_in_your_device_nplease_contact_your_device_support_center">Il sensore della bussola non è disponibile nel tuo dispositivo.\nSi prega di contattare il centro di supporto del dispositivo.</string>
+    <string name="ok">OK</string>
+    <string name="alert">Avviso!</string>
+
 </resources>

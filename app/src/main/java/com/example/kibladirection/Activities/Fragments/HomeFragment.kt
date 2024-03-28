@@ -8,6 +8,8 @@ import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Matrix
+import android.hardware.Sensor
+import android.hardware.SensorManager
 import android.location.Address
 import android.location.Geocoder
 import android.location.Location
@@ -21,9 +23,11 @@ import android.view.ViewGroup
 import android.view.animation.Animation
 import android.view.animation.RotateAnimation
 import android.view.animation.TranslateAnimation
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
@@ -95,6 +99,22 @@ class HomeFragment : Fragment() {
                 val bannerAdId = getString(R.string.admob_banner_id)
                 AdMobBanner.loadFullBannerAd(ApplicationClass.context, bannerAdId, binding.frameLayout)
             }
+        }
+        if(!hasCompassSensor()){
+            val dialogView = layoutInflater.inflate(R.layout.dialog_no_sensor, null)
+            val btnCancel = dialogView.findViewById<Button>(R.id.btn_cancel)
+
+            val dialogBuilder = AlertDialog.Builder(requireContext(), R.style.CustomAlertDialogStyle)
+                .setView(dialogView)
+                .setCancelable(false)
+
+            val alertDialog = dialogBuilder.create()
+            btnCancel.setOnClickListener {
+                // Dismiss the dialog
+                alertDialog.dismiss()
+            }
+
+            alertDialog.show()
         }
         animateHeadline(binding.address)
         locationManager = requireActivity().getSystemService(Context.LOCATION_SERVICE) as LocationManager
@@ -217,6 +237,16 @@ class HomeFragment : Fragment() {
             val intent = Intent(ApplicationClass.context, InAppActivity::class.java)
             startActivity(intent)
         }
+    }
+    private fun hasCompassSensor(): Boolean {
+        // Get the sensor manager
+        val sensorManager = requireActivity().getSystemService(Context.SENSOR_SERVICE) as SensorManager
+
+        // Check if the device has a compass sensor
+        val compassSensor: Sensor? = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD)
+
+        // Return true if a compass sensor is available, false otherwise
+        return compassSensor != null
     }
     private fun rotateDialImage(angle: Double) {
         // Create a styled context using the desired style

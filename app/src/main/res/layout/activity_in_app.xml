@@ -13,9 +13,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginBottom="150dp"
-            android:background="@drawable/in_app_banner"
+            android:background="@drawable/mosque_background"
             android:orientation="horizontal"
-            android:src="@drawable/in_app_banner"
             app:layout_constraintBottom_toBottomOf="@+id/imageView14"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -102,7 +101,7 @@
                     android:textColor="@color/white"
                     android:layout_margin="20dp"
                     android:text=""
-                    android:textSize="22sp"
+                    android:textSize="20sp"
                     android:layout_weight="0"
                     android:textStyle="bold"
                     />
@@ -144,7 +143,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/terms_and_conditions"
                     android:foreground="@drawable/ripple_effect"
-                    style="@style/TextColorApp"
+                    style="@style/InAppBannerTerms"
                     android:textStyle="bold"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -159,7 +158,7 @@
                     android:layout_height="wrap_content"
                     android:foreground="@drawable/ripple_effect"
                     android:text="@string/privacy_policy"
-                    style="@style/TextColorApp"
+                    style="@style/InAppBannerTerms"
                     android:textStyle="bold"/>
             </LinearLayout>
 

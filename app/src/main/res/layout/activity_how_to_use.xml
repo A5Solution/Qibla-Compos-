@@ -16,7 +16,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:background="@color/appColor">
+            style="@style/CardBackground">
 
             <LinearLayout
 
@@ -52,7 +52,7 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+            app:layout_constraintBottom_toTopOf="@+id/nativeAdContainer"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/layout1">
@@ -76,7 +76,8 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="30dp"
                         android:padding="8dp"
-                        android:src="@drawable/how_to_use" />
+                        android:src="@drawable/how_to_use"
+                        style="@style/ImageColorApp"/>
 
                     <TextView
                         style="@style/TextColor"
@@ -110,6 +111,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="30dp"
                         android:padding="8dp"
+                        style="@style/ImageColorApp"
                         android:src="@drawable/how_to_use" />
 
                     <TextView
@@ -126,12 +128,28 @@
         </ScrollView>
 
         <FrameLayout
-            android:id="@+id/frameLayout"
+            android:id="@+id/nativeAdContainer"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:background="@color/light_gray"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            style="@style/CardBackground"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/ad_loading"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5" />
+        </FrameLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

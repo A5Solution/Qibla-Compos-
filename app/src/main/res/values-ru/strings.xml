@@ -52,5 +52,18 @@
     <string name="location_not_found">Местоположение не найдено</string>
     <string name="location_permission_denied_cannot_retrieve_location">Отказано в разрешении на местоположение. Невозможно получить местоположение.</string>
     <string name="location_permission_denied_cannot_proceed">Отказано в разррешении на местоположение. Невозможно продолжить.</string>
+    <string name="calibrate_your_device_by_moving_it_in_3_directions_as_shown_in_the_given_illustrations_or_moving_your_phone_in_8_pattern_shape">Калибруйте свое устройство, двигая его в 3 направлениях, как показано на предоставленных иллюстрациях, или двигая ваш телефон в форме 8-образного узора.</string>
+    <string name="keep_your_device_away_from_magnetic_things_if_sensor_accuracy_is_still_low_you_did_the_calibration_wrong_or_may_be_there_is_a_problem_with_your_device">Держите свое устройство вдали от магнитных предметов. Если точность сенсора по-прежнему низкая, вы сделали калибровку неправильно или может быть проблема с вашим устройством.</string>
+    <string name="choose_theme">Выбрать тему</string>
+    <string name="light">Светлая</string>
+    <string name="dark">Темная</string>
+    <string name="cancel">Отмена</string>
+    <string name="exit">Выход</string>
+    <string name="do_you_want_to_exit">Хотите выйти?</string>
+    <string name="gps_coordinates">GPS Координаты</string>
+    <string name="compass_sensor_is_not_available_in_your_device_nplease_contact_your_device_support_center">Датчик компаса не доступен на вашем устройстве.\nПожалуйста, обратитесь в службу поддержки вашего устройства.</string>
+    <string name="ok">OK</string>
+    <string name="alert">Предупреждение!</string>
+
 </resources>
 

@@ -16,6 +16,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.akexorcist.localizationactivity.ui.LocalizationActivity
+import com.example.kibladirection.Activities.Classes.ApplicationClass
 import com.example.kibladirection.Activities.Classes.SubscriptionManager
 import com.example.kibladirection.Activities.Classes.Utils
 import com.example.kibladirection.R
@@ -255,9 +256,8 @@ class MainActivity : LocalizationActivity() {
 
         btnExit.setOnClickListener {
             // Exit the app
-
             alertDialog.dismiss()
-            finish()
+            finishAffinity()
             super.onBackPressed()
         }
 
@@ -269,4 +269,8 @@ class MainActivity : LocalizationActivity() {
         alertDialog.show()
     }
 
+    override fun onResume() {
+        super.onResume()
+        ApplicationClass.counter++
+    }
 }

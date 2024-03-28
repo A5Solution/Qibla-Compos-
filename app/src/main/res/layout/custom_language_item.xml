@@ -13,7 +13,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/border_white_background"
-            android:gravity="center_vertical">
+            android:gravity="center_vertical"
+            android:foreground="@drawable/ripple_effect">
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

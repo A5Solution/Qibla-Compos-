@@ -13,10 +13,10 @@
             android:id="@+id/lottieAnimationView3"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:src="@drawable/appicon"
+            android:src="@drawable/splash_icon"
             app:layout_constraintBottom_toTopOf="@+id/lottieAnimationView"
             app:layout_constraintEnd_toEndOf="parent"
-            android:alpha="0.7"
+            android:alpha="0.6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

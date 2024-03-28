@@ -52,4 +52,17 @@
     <string name="location_not_found">Konum bulunamadı</string>
     <string name="location_permission_denied_cannot_retrieve_location">Konum izni reddedildi. Konum alınamıyor.</string>
     <string name="location_permission_denied_cannot_proceed">Konum izni reddedildi. İlerleyemiyor.</string>
+    <string name="calibrate_your_device_by_moving_it_in_3_directions_as_shown_in_the_given_illustrations_or_moving_your_phone_in_8_pattern_shape">Verilen görsellerde gösterildiği gibi cihazınızı 3 yönde hareket ettirerek veya telefonunuzu 8 desen şeklinde hareket ettirerek cihazınızı kalibre edin.</string>
+    <string name="keep_your_device_away_from_magnetic_things_if_sensor_accuracy_is_still_low_you_did_the_calibration_wrong_or_may_be_there_is_a_problem_with_your_device">Cihazınızı manyetik şeylerden uzak tutun. Sensör hassasiyeti hala düşükse, kalibrasyonu yanlış yaptınız veya cihazınızda bir sorun olabilir.</string>
+    <string name="choose_theme">Tema Seç</string>
+    <string name="light">Açık</string>
+    <string name="dark">Karanlık</string>
+    <string name="cancel">İptal</string>
+    <string name="exit">Çıkış</string>
+    <string name="do_you_want_to_exit">Çıkmak istiyor musunuz?</string>
+    <string name="gps_coordinates">GPS Koordinatları</string>
+    <string name="compass_sensor_is_not_available_in_your_device_nplease_contact_your_device_support_center">Pusula Sensörü cihazınızda mevcut değil.\nLütfen cihaz destek merkezinizle iletişime geçin.</string>
+    <string name="ok">Tamam</string>
+    <string name="alert">Uyarı!</string>
+
 </resources>

@@ -4,6 +4,7 @@
     <color name="gray">#979696</color>
     <color name="white">#FFFFFFFF</color>
     <color name="appColor">#8C7F06</color>
+    <color name="faded">#262302</color>
     <color name="red">#F44336</color>
     <color name="light_gray">#C3C0C0</color>
     <color name="premium_button">#FEE076</color>

@@ -52,4 +52,17 @@
     <string name="location_not_found">स्थान नहीं मिला</string>
     <string name="location_permission_denied_cannot_retrieve_location">स्थान अनुमति निरस्त की गई। स्थान प्राप्त नहीं किया जा सकता।</string>
     <string name="location_permission_denied_cannot_proceed">स्थान अनुमति निरस्त की गई। आगे नहीं बढ़ा जा सकता।</string>
+    <string name="calibrate_your_device_by_moving_it_in_3_directions_as_shown_in_the_given_illustrations_or_moving_your_phone_in_8_pattern_shape">दिए गए चित्रों में दिखाए गए 3 दिशाओं में अपनी डिवाइस को या 8 पैटर्न आकार में अपना फोन हिलाकर अपनी डिवाइस को कैलिब्रेट करें।</string>
+    <string name="keep_your_device_away_from_magnetic_things_if_sensor_accuracy_is_still_low_you_did_the_calibration_wrong_or_may_be_there_is_a_problem_with_your_device">अपनी डिवाइस को चुंगीली चीजों से दूर रखें, यदि सेंसर की सटीकता अभी भी कम है, तो आपने कैलिब्रेशन गलत किया है या आपके डिवाइस में कोई समस्या हो सकती है।</string>
+    <string name="choose_theme">थीम चुनें</string>
+    <string name="light">रोशनी</string>
+    <string name="dark">अंधेरा</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="exit">निकास</string>
+    <string name="do_you_want_to_exit">क्या आप निकलना चाहते हैं?</string>
+    <string name="gps_coordinates">जीपीएस कोआर्डिनेट्स</string>
+    <string name="compass_sensor_is_not_available_in_your_device_nplease_contact_your_device_support_center">कम्पास सेंसर आपके डिवाइस में उपलब्ध नहीं है।\nकृपया अपने डिवाइस समर्थन केंद्र से संपर्क करें।</string>
+    <string name="ok">ठीक है</string>
+    <string name="alert">चेतावनी!</string>
+
 </resources>

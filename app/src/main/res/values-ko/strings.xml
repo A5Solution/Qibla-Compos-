@@ -52,4 +52,17 @@
     <string name="location_not_found">위치를 찾을 수 없음</string>
     <string name="location_permission_denied_cannot_retrieve_location">위치 권한이 거부되었습니다. 위치를 가져올 수 없습니다.</string>
     <string name="location_permission_denied_cannot_proceed">위치 권한이 거부되었습니다. 진행할 수 없습니다.</string>
+    <string name="calibrate_your_device_by_moving_it_in_3_directions_as_shown_in_the_given_illustrations_or_moving_your_phone_in_8_pattern_shape">제공된 삽화에 나와 있는 대로 기기를 3 방향으로 이동하거나 8 패턴 모양으로 핸드폰을 이동하여 보정하십시오.</string>
+    <string name="keep_your_device_away_from_magnetic_things_if_sensor_accuracy_is_still_low_you_did_the_calibration_wrong_or_may_be_there_is_a_problem_with_your_device">자석적 물건에서 기기를 멀리하세요. 센서 정확도가 여전히 낮으면 보정을 잘못했거나 기기에 문제가 있을 수 있습니다.</string>
+    <string name="choose_theme">테마 선택</string>
+    <string name="light">라이트</string>
+    <string name="dark">다크</string>
+    <string name="cancel">취소</string>
+    <string name="exit">종료</string>
+    <string name="do_you_want_to_exit">종료 하시겠습니까?</string>
+    <string name="gps_coordinates">GPS 좌표</string>
+    <string name="compass_sensor_is_not_available_in_your_device_nplease_contact_your_device_support_center">극성 센서가 장치에서 사용할 수 없습니다.\n기기 지원 센터에 문의하십시오.</string>
+    <string name="ok">확인</string>
+    <string name="alert">경고!</string>
+
 </resources>

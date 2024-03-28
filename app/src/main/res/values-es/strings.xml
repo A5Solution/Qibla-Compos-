@@ -52,4 +52,17 @@
     <string name="location_not_found">Ubicación no encontrada</string>
     <string name="location_permission_denied_cannot_retrieve_location">Permiso de ubicación denegado. No se puede recuperar la ubicación.</string>
     <string name="location_permission_denied_cannot_proceed">Permiso de ubicación denegado. No se puede proceder.</string>
+    <string name="calibrate_your_device_by_moving_it_in_3_directions_as_shown_in_the_given_illustrations_or_moving_your_phone_in_8_pattern_shape">Calibre su dispositivo moviéndolo en 3 direcciones como se muestra en las ilustraciones dadas o moviendo su teléfono en forma de patrón 8.</string>
+    <string name="keep_your_device_away_from_magnetic_things_if_sensor_accuracy_is_still_low_you_did_the_calibration_wrong_or_may_be_there_is_a_problem_with_your_device">Mantenga su dispositivo alejado de cosas magnéticas, si la precisión del sensor sigue siendo baja, realizó la calibración incorrectamente o puede haber un problema con su dispositivo.</string>
+    <string name="choose_theme">Elige un tema</string>
+    <string name="light">Luz</string>
+    <string name="dark">Oscuro</string>
+    <string name="cancel">Cancelar</string>
+    <string name="exit">Salir</string>
+    <string name="do_you_want_to_exit">¿Quieres salir?</string>
+    <string name="gps_coordinates">Coordenadas GPS</string>
+    <string name="compass_sensor_is_not_available_in_your_device_nplease_contact_your_device_support_center">El sensor de brújula no está disponible en su dispositivo.\nPor favor, póngase en contacto con el centro de soporte de su dispositivo.</string>
+    <string name="ok">Aceptar</string>
+    <string name="alert">¡Alerta!</string>
+
 </resources>
