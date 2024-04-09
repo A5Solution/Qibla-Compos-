@@ -39,6 +39,7 @@ import com.google.android.gms.location.LocationServices
 import com.luckycatlabs.sunrisesunset.SunriseSunsetCalculator
 import com.luckycatlabs.sunrisesunset.dto.Location
 import kotlinx.coroutines.launch
+import java.io.IOException
 import java.util.Calendar
 import java.util.TimeZone
 interface OnBackPressedListener {
@@ -154,10 +155,25 @@ class CompassFragment : Fragment(), OnBackPressedListener {
     }
     private fun getAddress(latitude: Double, longitude: Double) {
         val geocoder = Geocoder(ApplicationClass.context)
-        val addresses: List<Address> = geocoder.getFromLocation(latitude, longitude, 1)!!
-        val address = addresses[0].getAddressLine(0)
-        binding.address.text=address.toString()
-        // Use the address here
+        try {
+            val addresses: List<Address> = geocoder.getFromLocation(latitude, longitude, 1)!!
+            if (addresses.isNotEmpty()) {
+                val address = addresses[0].getAddressLine(0)
+                binding.address.text = address
+                // Use the address here
+            } else {
+                // Handle case when no address is found
+                binding.address.text = "Address not found"
+            }
+        } catch (e: IOException) {
+            // Handle geocoding error
+            e.printStackTrace()
+            binding.address.text = "Geocoding error: ${e.message}"
+        } catch (e: NullPointerException) {
+            // Handle null pointer exception
+            e.printStackTrace()
+            binding.address.text = "Null pointer exception: ${e.message}"
+        }
     }
     private fun animateHeadline(textView: TextView) {
         val screenWidth = resources.displayMetrics.widthPixels.toFloat()

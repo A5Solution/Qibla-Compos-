@@ -51,7 +51,6 @@ class InAppActivity : LocalizationActivity(), PurchasesUpdatedListener {
             .setListener(this)
             .enablePendingPurchases()
             .build()
-
         subscriptionManager = SubscriptionManager(this)
 
         billingClient.startConnection(object : BillingClientStateListener {
@@ -102,20 +101,28 @@ class InAppActivity : LocalizationActivity(), PurchasesUpdatedListener {
 
         billingClient.querySkuDetailsAsync(params) { billingResult, skuDetailsList ->
             if (billingResult.responseCode == BillingClient.BillingResponseCode.OK && skuDetailsList != null) {
-                skuDetailsList?.forEach { skuDetails ->
-                    val sku = skuDetails.sku
-                    val price = skuDetails.price
-                    when (sku) {
-                        "sparx_qiblacompass_free_find_qibladirection_digital3dcompassapp_lifetime_purchase" -> {
-                            binding.priceLifetimePrice.text = price
-                            binding.price2.text= "$price "
-                        }
-                    }
-                }
+                skuDetailsList.forEach { skuDetails ->
+                    if (skuDetails != null) {
+                        val sku = skuDetails.sku
+                        val price = skuDetails.price
+                        Log.d("price", price)
 
-                for (skuDetails in skuDetailsList) {
-                    when (skuDetails.sku) {
-                        "sparx_qiblacompass_free_find_qibladirection_digital3dcompassapp_lifetime_purchase" -> lifetimeSkuDetails = skuDetails
+                        if (sku != null && price != null) {
+                            binding.priceLifetimePrice.text = price
+                            if (sku == "sparx_qiblacompass_free_find_qibladirection_digital3dcompassapp_lifetime_purchase") {
+                                if(!binding.priceLifetimePrice.text.isEmpty()){
+                                    binding.price2.text = "$price"
+                                }
+
+
+                            } else {
+                                Log.d("Debug", "SKU does not match")
+                            }
+                        } else {
+                            Log.d("Debug", "SKU or price is null")
+                        }
+                    } else {
+                        Log.d("Debug", "skuDetails is null")
                     }
                 }
             } else {

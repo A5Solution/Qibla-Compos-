@@ -10,5 +10,5 @@
         android:startColor="@color/lightBlack"
         android:centerColor="@color/lightBlack"
         android:endColor="@color/lightBlack"
-        android:angle="45"/>  <!-- Neon Orange color -->
+        android:angle="0"/>  <!-- Neon Orange color -->
 </shape>

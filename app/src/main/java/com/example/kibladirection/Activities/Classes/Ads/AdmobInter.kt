@@ -29,7 +29,11 @@ class AdmobInter {
 
     }
     fun loadInterAd(context: Context, admobInterId: String) {
-
+        count++
+        if(count%3!=0){
+            isClicked=true
+            return
+        }
         if(mInterstitialAd != null)
             return
         var adRequest = AdRequest.Builder().build()
@@ -54,11 +58,7 @@ class AdmobInter {
     }
 
     fun showInterAd(context: Context, adEvent: (Boolean) -> Unit) {
-        count++
-        if(count%3!=0){
-            isClicked=true
-            return
-        }
+
         isClicked=false
         if (mInterstitialAd != null) {
             Log.d("AdmobInterAd", "showInterAd: if")

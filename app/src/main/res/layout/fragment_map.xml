@@ -57,7 +57,8 @@
                         android:layout_height="30dp"
                         android:foreground="@drawable/ripple_effect"
                         android:src="@drawable/back"
-                        android:tint="@color/white"/>
+                        android:tint="@color/white"
+                        tools:ignore="UseAppTint" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

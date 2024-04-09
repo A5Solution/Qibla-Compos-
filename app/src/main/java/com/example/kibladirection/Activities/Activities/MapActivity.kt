@@ -83,15 +83,23 @@ class MapActivity : LocalizationActivity() {
 
         arrowView = binding.mapView
         sotwLabel = binding.sotwLabel
-        binding.myLocation.setOnClickListener(){
-            Utils.logAnalytic("My direction clicked in map activity")
-            val lastKnownLocation = locationOverlay?.myLocation
-            if (lastKnownLocation != null) {
-                binding.mapView.controller.animateTo(lastKnownLocation)
-            } else {
-                Toast.makeText(this@MapActivity, getString(R.string.location_not_found), Toast.LENGTH_SHORT).show()
+        binding.myLocation.setOnClickListener {
+            try {
+                Utils.logAnalytic("My direction clicked in map activity")
+                val lastKnownLocation = locationOverlay?.myLocation
+                if (lastKnownLocation != null) {
+                    binding.mapView.controller.animateTo(lastKnownLocation)
+                } else {
+                    Toast.makeText(this@MapActivity, getString(R.string.location_not_found), Toast.LENGTH_SHORT).show()
+                }
+            } catch (e: UnsupportedOperationException) {
+                // Handle the exception here
+                e.printStackTrace()
+                // Optionally, you can show a Toast or log the exception message
+                Toast.makeText(this@MapActivity, "Unsupported operation: ${e.message}", Toast.LENGTH_SHORT).show()
             }
         }
+
         binding.meccaLocation.setOnClickListener(){
             Utils.logAnalytic("Qibla direction clicked in map activity")
             val kaabaLocation = GeoPoint(21.4241, 39.8173)
