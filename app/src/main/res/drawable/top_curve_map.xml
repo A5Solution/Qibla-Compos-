@@ -10,5 +10,5 @@
         android:startColor="@color/faded"
         android:centerColor="@color/appColor"
         android:endColor="@color/faded"
-        android:angle="1"/>  <!-- Neon Orange color -->
+        android:angle="45"/>  <!-- Neon Orange color -->
 </shape>

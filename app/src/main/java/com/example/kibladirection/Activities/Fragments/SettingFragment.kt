@@ -52,7 +52,7 @@ class SettingFragment : Fragment(), OnBackPressedListener {
         }
         binding.moreApps.setOnClickListener(){
             val websiteUri =
-                Uri.parse("https://play.google.com/store/apps/developer?id=Sparx+Developer")
+                Uri.parse("https://play.google.com/store/apps/developer?id=Sparex+Tech")
             val intent = Intent(Intent.ACTION_VIEW, websiteUri)
             startActivity(intent)
         }
@@ -102,11 +102,6 @@ class SettingFragment : Fragment(), OnBackPressedListener {
             val alertDialog = builder.create()
             alertDialog.show()
         }
-
-
-
-
-
         binding.back.setOnClickListener(){
             Utils.logAnalytic("Settings back clicked")
             findNavController().navigate(R.id.action_settingFragment_to_homeFragment)
@@ -120,7 +115,7 @@ class SettingFragment : Fragment(), OnBackPressedListener {
         binding.shareApp.setOnClickListener {
             Utils.logAnalytic("Settings shareapp clicked")
             val websiteUri =
-                Uri.parse("https://play.google.com/store/apps/details?id=sparx.qiblacompass.free.find.qibladirection.digital3dcompassapp")
+                Uri.parse("https://play.google.com/store/apps/details?id=sparx.qiblacompass.free.find.qibladirection.digital3dcompassapp&pcampaignid=web_share")
             val intent = Intent(Intent.ACTION_VIEW, websiteUri)
             startActivity(intent)
         }

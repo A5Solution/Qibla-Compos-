@@ -51,6 +51,8 @@ import com.google.android.gms.location.LocationServices
 import com.luckycatlabs.sunrisesunset.SunriseSunsetCalculator
 import kotlinx.coroutines.launch
 import java.io.IOException
+import java.math.RoundingMode
+import java.text.DecimalFormat
 import java.util.Calendar
 import java.util.TimeZone
 import kotlin.math.atan2
@@ -192,7 +194,15 @@ class HomeFragment : Fragment() {
                     rotateDialImage(qiblaAngle)
                     val latitude = location.latitude // Example latitude
                     val longitude = location.longitude // Example longitude
-                    getAddress(latitude, longitude)
+
+                    val decimalFormat = DecimalFormat("#.######") // Format for 6 decimal places
+                    decimalFormat.roundingMode = RoundingMode.CEILING // Adjust rounding mode as needed
+
+                    val roundedLatitude = decimalFormat.format(latitude).toDouble()
+                    val roundedLongitude = decimalFormat.format(longitude).toDouble()
+
+                    getAddress(roundedLatitude, roundedLongitude)
+
                     // Calculate sunrise and sunset times
                     val calculator = SunriseSunsetCalculator(
                         com.luckycatlabs.sunrisesunset.dto.Location(latitude, longitude),
